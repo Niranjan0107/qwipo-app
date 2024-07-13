@@ -1,0 +1,61 @@
+/* team starts */
+
+
+.post {
+    margin-bottom: 25px;
+}
+.team-col h3 {
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+.team-col p
+{
+    font-size: 18px;
+    line-height: 21.83px;
+}
+
+.team-col {
+    border: 1px solid #C6C6C6;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 30px;
+}
+
+.team-col img {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+
+.image-box p {
+    font-size: 24px;
+    line-height: 31.11px;
+}
+
+.image-box img {
+    height: 248px;
+    object-fit: contain;
+    margin-bottom: 30px;
+}
+.image-box {
+    margin-bottom: 85px;
+}
+
+/* teams end */
+
+
+
+
+
+@media(min-width:768px)
+{
+ 
+
+    /* teams section */
+
+    /* team section */
+
+
+}

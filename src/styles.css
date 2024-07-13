@@ -1,1 +1,216 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0;   font-family: "Poppins", sans-serif;
+}
+
+@media(min-width:1600px)
+{
+    .container {
+        max-width: 1580px;
+    }
+    .small, small {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+h1
+{
+font-size: 64px;
+line-height: 77.63px;
+letter-spacing: -0.02em;
+}
+
+p
+{
+font-size: 24px;
+line-height: 29.11px;
+}
+
+}
+
+
+@media(min-width:768px)
+{
+    /* need section */
+.need-col {
+    min-height: 435px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.middle-need-col .need-col {
+    min-height: 894px;
+    align-items: center;
+
+}
+    /* need section */
+
+}
+.carousel-indicators {
+    margin-bottom: -4rem !important;
+}
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #8D8D8D;
+    width: 55px !important;
+    height: 5px;
+    border-radius: 9px;
+}
+.carousel-indicators [data-bs-target] {
+    height: 5px;
+    width: 6px;
+    background-color: #8D8D8D;
+    opacity: 1;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+/* Global css starts*/
+h1
+{
+font-family: Poppins;
+font-weight: 600;
+color: #000;
+}
+
+p
+{
+font-family: Poppins;
+font-weight: 400;
+}
+/* Global css ENDS*/
+
+
+
+
+
+
+
+
+
+/* empower setion starts */
+
+.empower-section .border-top-1 {
+    border-top: 1px solid #C6C6C6;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.text-left
+
+{
+    text-align: left;
+}
+
+/* empower setion ends */
+
+
+
+/* need setion starts */
+
+
+.need-col h3 {
+    margin-bottom: 15px;
+}
+
+.need-col {
+    padding: 41px 46px 0px 32px;
+    gap: 0px;
+    border-radius: 20px;
+    border: 1px solid #C6C6C6;
+}
+.need-col img {
+    max-height: 160px;
+    width: auto;
+    margin-bottom: 30px;
+}
+
+.middle-need-col img {
+    width: 100%;
+    max-height: none;
+}
+
+/* need setion ends */
+
+
+
+
+
+/* For mobile devices */
+
+@media(max-width:767px)
+{
+    h1 {
+        font-size: 32px;
+    }
+    button.navbar-toggler {
+        filter: invert(1);
+    }
+    button.navbar-toggler {
+        filter: invert(1);
+    }
+    .brand-section .row {
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+    .picsum-img-wrapper img:nth-child(even) {
+        display: none;
+    }
+    .speciality div {
+        border-bottom: 1px solid #c9bbbb;
+        width: 75%;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+    .brand-section {
+        margin-top: 90px !important;
+    }
+    .middle-need-col {
+        margin-top: 1.5rem ;
+        margin-bottom: 1.5rem;
+    }
+    .testionials-section .title {
+        text-align: center;
+    }
+    .image-box p {
+        width: 75%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 18px;
+    }
+    
+    .image-box {
+        margin-bottom: 40px;
+    }
+    .image-box img {
+        width: 56%;
+    }
+}
+
+/* For mobile devices */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

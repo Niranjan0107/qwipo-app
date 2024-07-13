@@ -1,0 +1,33 @@
+/* showcase start */
+
+.showcase-col {
+    padding: 30px;
+}
+
+.showcase-section .row {
+    justify-content: center;
+}
+
+.showcase-col img {
+    width: 100%;
+    max-height: 210px;
+    object-fit: contain;
+}
+
+
+/* Showcase end */
+
+
+
+@media(min-width:768px)
+{
+ 
+
+    /* showcase section */
+    .showcase-col {
+        max-width: 23%;
+        width: 23%;
+    }
+    /* showcase section */
+
+}

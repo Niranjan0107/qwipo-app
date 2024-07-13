@@ -1,0 +1,15 @@
+@media(min-width:768px)
+{
+    .picsum-img-wrapper > * {
+        width: 48%;
+    }
+    
+    .picsum-img-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .picsum-img-wrapper img {
+        min-height: 800px;
+        object-fit: cover;
+    }
+}

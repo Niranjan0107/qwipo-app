@@ -1,0 +1,38 @@
+/* testimonials starts */
+
+
+.post {
+    margin-bottom: 25px;
+}
+
+.testimonial-col {
+    border: 1px solid #C6C6C6;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.testimonial-col img {
+    width: 103px;
+    height: 103px;
+    object-fit: cover;
+    margin-bottom: 25px;
+}
+
+/* testimonials end */
+
+
+@media(min-width:768px)
+{
+ 
+
+    /* testimonials section */
+
+.testimonial-col {
+
+    min-height: 564px;
+}
+    /* testimonials section */
+
+
+}
+
