@@ -158,6 +158,21 @@ font-weight: 400;
         flex-wrap: nowrap;
         overflow: auto;
     }
+    .testimonial-col {
+        margin-bottom: 30px;
+    }
+    .contact-container .contact-details {
+        padding: 30px !important;
+    }
+    .contact-detail {
+        margin-top: 100px;
+    }
+    .contact-container {
+        padding: 30px !important;
+    }
+    .blog-wrap a {
+        margin-top: 20px;
+    }
     .picsum-img-wrapper img:nth-child(even) {
         display: none;
     }
@@ -189,6 +204,25 @@ font-weight: 400;
     }
     .image-box img {
         width: 56%;
+    }
+
+    .application-section .phone-desc {
+        margin-bottom: 60px;
+    }
+    .application-section .phone-image {
+        text-align: center;
+    }
+    .application-section .phone-image img {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .application-section .phone-image {
+        margin-bottom: 55px;
+    }
+    .application-section .row:nth-child(odd) {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }
 

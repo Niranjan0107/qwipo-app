@@ -1,0 +1,87 @@
+.phone-image img
+{
+    max-width: 100%;
+}
+
+.phone-desc p
+{
+    margin: 35px 0px;
+}
+
+
+.phone-desc p {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.phone-desc a {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+}
+
+
+.solution-wrap p {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.solution-wrap h4 {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 25px;
+}
+.solution-wrap img {
+    max-height: 320px;
+    object-fit: contain;
+    height: 320px;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    margin-bottom: 32px;
+}
+.solution-wrap {
+    border: 1px solid #C6C6C6;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 1.6rem;
+}
+
+
+@media(min-width:1600px)
+{
+    .phone-desc p {
+        font-size: 32px;
+        line-height: 38.82px;
+    }
+    
+    .phone-desc a {
+        font-size: 32px;
+        line-height: 38.82px;
+    }
+
+
+    .solution-wrap p {
+        font-size: 20px;
+        line-height: 24.26px;
+      
+    }
+    
+    .solution-wrap h4 {
+        font-size: 28px;
+        line-height: 32.32px;
+    }
+}
+
+@media(min-width:768px)
+{
+    .solution-wrap p {
+        min-height: 100px;
+    }
+}
