@@ -228,7 +228,29 @@ font-weight: 400;
 
 /* For mobile devices */
 
+button.btn-close {
+    filter: invert(1);
+    opacity: 1;
+    font-size: 23px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
 
+
+
+ngb-offcanvas-panel.offcanvas.offcanvas-end.show li {
+    margin-bottom: 31px;
+    margin-left: 26px;
+}
+
+ngb-offcanvas-panel.offcanvas.offcanvas-end.show li a {
+    color: #fff !important;
+}
+ngb-offcanvas-panel.offcanvas.offcanvas-end.show {
+    background-color: #2D1352;
+    color: #fff;
+}
 
 
 
