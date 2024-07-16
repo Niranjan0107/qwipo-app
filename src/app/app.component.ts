@@ -7,11 +7,13 @@ import { BrandsComponent } from './pages/homepage/components/brands/brands.compo
 import { MainSliderComponent } from './pages/homepage/components/main-slider/main-slider.component';
 import { FooterComponent } from './otherComponents/footer/footer.component';
 import { HeaderComponent } from './otherComponents/header/header.component';
+import { AboutUsComponent } from './pages/about-us/about-us.component';
+import { HomepageComponent } from './pages/homepage/homepage.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FooterComponent, HeaderComponent, HeaderComponent, UsersThoughtsComponent, MediaShowcaseComponent, BrandsComponent, MainSliderComponent],
+  imports: [RouterOutlet, FooterComponent, HeaderComponent, HeaderComponent, UsersThoughtsComponent, MediaShowcaseComponent, BrandsComponent, MainSliderComponent, AboutUsComponent, HomepageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

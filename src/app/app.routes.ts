@@ -10,7 +10,7 @@ import { BlogsComponent } from './pages/blogs/blogs.component';
 export const routes: Routes = [
 
     { path: '', component: HomepageComponent },
-    { path: 'about-us', component: AboutUsComponent },
+    { path: 'about', component: AboutUsComponent },
     { path: 'career', component: CareerComponent },
     { path: 'services', component: ServicesComponent },
     { path: 'contact-us', component: ContactUsComponent },
