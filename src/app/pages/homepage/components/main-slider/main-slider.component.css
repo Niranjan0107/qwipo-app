@@ -8,8 +8,5 @@
         display: flex;
         justify-content: space-between;
     }
-    .picsum-img-wrapper img {
-        min-height: 800px;
-        object-fit: cover;
-    }
+ 
 }

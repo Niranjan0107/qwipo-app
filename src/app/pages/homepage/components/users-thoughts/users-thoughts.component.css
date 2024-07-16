@@ -21,7 +21,7 @@
 /* testimonials end */
 
 
-@media(min-width:768px)
+@media(min-width:1600px)
 {
  
 
@@ -29,7 +29,7 @@
 
 .testimonial-col {
 
-    min-height: 564px;
+    min-height: 633px;
 }
     /* testimonials section */
 

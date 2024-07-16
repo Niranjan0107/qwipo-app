@@ -1,14 +1,30 @@
+@media(min-width:1180px) and (max-width:1599px)
+{
+body ul.navbar-nav li a {
+    font-size: 16px;
+    line-height: 20.11px;
+}
+}
 ul.navbar-nav li a
 {
     font-family: Poppins;
-    font-size: 24px;
     font-weight: 500;
-    line-height: 29.11px;
     letter-spacing: -0.02em;
     text-align: left;
     color: #000;  
     text-decoration: none;
   
+}
+
+@media(min-width:1600px)
+{
+    ul.navbar-nav li a
+{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.11px;
+}
+   
 }
 
 ul.navbar-nav li {
@@ -19,4 +35,5 @@ ul.navbar-nav li {
     max-width: 133px;
     height: auto;
 }
+
 
