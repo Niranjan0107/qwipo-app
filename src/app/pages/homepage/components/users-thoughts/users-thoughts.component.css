@@ -12,8 +12,8 @@
 }
 
 .testimonial-col img {
-    width: 103px;
-    height: 103px;
+    width: 65px;
+    height: 65px;
     object-fit: cover;
     margin-bottom: 25px;
 }
@@ -33,6 +33,11 @@
 }
     /* testimonials section */
 
-
+    .testimonial-col img {
+        width: 103px;
+        height: 103px;
+    
+    }
+    
 }
 

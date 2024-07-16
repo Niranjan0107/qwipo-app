@@ -301,9 +301,26 @@ h4 {
     font-size: 22px;
 }
 .testimonial-col {
-    min-height: 506px;
+    min-height: 482px;
+}
+.testimonial-col p {
+    font-size: 16px;
+    line-height: 21px;
 }
 
+.blog-wrap a {
+    font-size: 16px !important;
+}
+
+.blog-wrap p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px !important;
+}
+.image-box p {
+    font-size: 18px;
+    line-height: 31.11px;
+}
 .need-col h3 {
     margin-bottom: 15px;
     font-size: 20px;
