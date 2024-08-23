@@ -56,9 +56,17 @@ line-height: 29.11px;
         display: flex;
         column-gap: 20px;
     }
-    .inner-pc-main p {
+    body .inner-pc-main p {
         font-size: 17px;
+        line-height: 1.3;
     }
+
+    .inner-pc p {
+        display: flex;
+        align-items: flex-start;
+        column-gap: 1px;
+    }
+
     .inner-pc-main {
         display: flex;
         flex-direction: column;
