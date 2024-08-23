@@ -1,12 +1,20 @@
 @media(min-width:768px)
 {
     .picsum-img-wrapper > * {
-        width: 48%;
+        width: 49%;
     }
-    
+    .main-slider .col-12 {
+        padding: 0;
+    }
     .picsum-img-wrapper {
         display: flex;
         justify-content: space-between;
+    }
+
+    .picsum-img-wrapper img {
+        min-height: 500px;
+        object-fit: cover;
+        border-radius: 50px;
     }
  
 }

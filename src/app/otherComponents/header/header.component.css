@@ -7,7 +7,7 @@ body ul.navbar-nav li a {
 }
 ul.navbar-nav li a
 {
-    font-family: Poppins;
+    font-family: Outfit;
     font-weight: 500;
     letter-spacing: -0.02em;
     text-align: left;
@@ -20,7 +20,7 @@ ul.navbar-nav li a
 {
     ul.navbar-nav li a
 {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 29.11px;
 }
@@ -37,3 +37,36 @@ ul.navbar-nav li {
 }
 
 
+ul.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.consult span {
+    color: #b97aee;
+    position: relative;
+    top: -4px;
+}
+
+ul.navbar-nav .consult 
+{
+    text-align: right !important;
+}
+
+.inner-pc p a {
+    text-decoration: none;
+}
+.inner-pc p img {
+    margin-right: 10px;
+}
+.inner-pc p {
+    margin-bottom: 10px;
+}
+
+.inner-pc img {
+    filter: brightness(0.5);
+}
+
+.ham-btn img {
+    width: 40px;
+}

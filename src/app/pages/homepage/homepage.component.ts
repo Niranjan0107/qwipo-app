@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { FooterComponent } from '../../otherComponents/footer/footer.component';
-import { MediaShowcaseComponent } from './components/media-showcase/media-showcase.component';
 import { UsersThoughtsComponent } from './components/users-thoughts/users-thoughts.component';
 import { BrandsComponent } from './components/brands/brands.component';
 import { MainSliderComponent } from './components/main-slider/main-slider.component';
@@ -8,7 +7,7 @@ import { MainSliderComponent } from './components/main-slider/main-slider.compon
 @Component({
   selector: 'app-homepage',
   standalone: true,
-  imports: [FooterComponent, MediaShowcaseComponent, UsersThoughtsComponent, BrandsComponent, MainSliderComponent],
+  imports: [FooterComponent, UsersThoughtsComponent, BrandsComponent, MainSliderComponent],
   templateUrl: './homepage.component.html',
   styleUrl: './homepage.component.css'
 })

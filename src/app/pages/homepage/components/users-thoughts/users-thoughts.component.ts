@@ -1,9 +1,10 @@
 import { Component } from '@angular/core';
+import { NgbCarouselModule } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-users-thoughts',
   standalone: true,
-  imports: [],
+  imports: [NgbCarouselModule],
   templateUrl: './users-thoughts.component.html',
   styleUrl: './users-thoughts.component.css'
 })

@@ -1,82 +1,190 @@
-
 <header class="desk_header">
-    <div class="main-header">
-        <ng-template #content let-offcanvas>
-            <div class="offcanvas-header">
-                <button type="button" class="btn-close" aria-label="Close" (click)="offcanvas.dismiss('Cross click')"></button>
+  <div class="main-header">
+    <ng-template #content let-offcanvas>
+      <div class="offcanvas-header">
+        <button
+          type="button"
+          class="btn-close"
+          aria-label="Close"
+          (click)="offcanvas.dismiss('Cross click')"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav setNav left-nav">
+          <li><a href="/" class="header-link">Home </a></li>
+          <li><a routerLink="/about-us"> About Us </a></li>
+          <li><a href="/blog" class="header-link"> Blogs </a></li>
+          <li><a href="/services" class="header-link"> Services </a></li>
+          <li><a href="/career" class="header-link"> Career </a></li>
+          <li><a href="/partners" class="header-link"> Partners </a></li>
+          <li><a href="/contact-us" class="header-link"> Contact Us </a></li>
+        </ul>
+      </div>
+    </ng-template>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid px-3 py-2 px-md-5 py-md-3 mobile-menu-btn">
+        <div class="logo-wrap">
+          <a href="index.html"><img src="assets/logo.png" alt="Logo" /></a>
+        </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvas"
+          aria-controls="navbarOffcanvas"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          (click)="open(content)"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="offcanvas offcanvas-start desk_header_menu"
+          id="navbarOffcanvas"
+          tabindex="-1"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close btn-close-white text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body m-auto">
+            <ul class="navbar-nav setNav left-nav">
+              <li><a routerLink="/" class="header-link">Home </a></li>
+              <li>
+                <a
+                  routerLink="/about"
+                  routerLinkActive="active"
+                  ariaCurrentWhenActive="page"
+                >
+                  About Us
+                </a>
+              </li>
+              <li><a routerLink="/blog" class="header-link"> Blogs </a></li>
+              <li>
+                <a routerLink="/services" class="header-link"> Services </a>
+              </li>
+              <li><a routerLink="/career" class="header-link"> Career </a></li>
+              <li>
+                <a routerLink="/partners" class="header-link"> Partners </a>
+              </li>
+              <li>
+                <a routerLink="/contact-us" class="header-link"> Contact Us </a>
+              </li>
+           
+            </ul>
+          </div>
+        </div>
+        <div class="desktop-toggle">
+            <ul class="navbar-nav">
+                <li class="consult">
+                    <a href="/contact-us" class="header-link">
+                      Consultation<br /><span>+91 000000000</span></a
+                    >
+                  </li>
+            </ul>
+        </div>
+
+        <ng-template #contentSidebar let-offcanvas class="pc-sidebar">
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close"
+              aria-label="Close"
+              (click)="offcanvas.dismiss('Cross click')"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="inner-pc-main">
+              <img src="assets/logo.png" />
+              <p>
+                At QWIPO's e-commerce digital marketplace, showcase your brand
+                and products to thousands of retailers seeking to replenish
+                their inventory. Expand your sales territory and streamline your
+                day-to-day operations with our platform's leading-edge
+                technology.
+              </p>
+
+              <div class="inner-pc mt-3">
+                <h3>Information</h3>
+                <p>
+                  <img
+                    src="https://adventz.radiantthemes.com/wp-content/uploads/2022/02/white-map-marker.svg"
+                    alt=""
+                    data-no-retina=""
+                  />
+                  121 King St, Melbourne VIC 3000, Australia
+                  </p>
+                    <p>
+                   <a  href="mailto:info@example.com"
+                      ><img
+                        src="https://adventz.radiantthemes.com/wp-content/uploads/2022/02/white-gmail1.svg"
+                        alt=""
+                        data-no-retina=""
+                      />
+                      <span style="color: #676766">info&#64;example.com</span></a
+                    ></p>
+                    <p>                    
+                       <img src="https://adventz.radiantthemes.com/wp-content/uploads/2022/02/white-phone.svg"
+                    alt=""
+                    data-no-retina=""
+                  />
+                  +1 (888) 123 4567
+                </p>
+              </div>
+
+              <div class="inner-pc mt-3">
+                <h3>Fllow Us</h3>
+                <ul class="social-icon">
+                  <li class="twitter">
+                    <a href="#"
+                      ><img
+                        src="https://adventz.radiantthemes.com/wp-content/uploads/2022/04/white-twitter.svg"
+                        alt=""
+                        data-no-retina=""
+                    /></a>
+                  </li>
+                  <li class="youtube">
+                    <a href="#"
+                      ><img
+                        src="https://adventz.radiantthemes.com/wp-content/uploads/2022/04/white-youtube1.svg"
+                        alt=""
+                        data-no-retina=""
+                    /></a>
+                  </li>
+                  <li class="facebook">
+                    <a href="#"
+                      ><img
+                        src="https://adventz.radiantthemes.com/wp-content/uploads/2022/04/white-facebook.svg"
+                        alt=""
+                        data-no-retina=""
+                    /></a>
+                  </li>
+                  <li class="instagram">
+                    <a href="#"
+                      ><img
+                        src="https://adventz.radiantthemes.com/wp-content/uploads/2022/04/white-vimro.svg"
+                        alt=""
+                        data-no-retina=""
+                    /></a>
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav setNav left-nav">
-                            
-                    <li> <a href="/"class="header-link">Home
-                     </a> </li>
-                    <li> <a routerLink="/about-us">
-                         About Us </a> </li>
-                    <li> <a href="/blog" class="header-link">
-                     Blogs </a> </li>
-                     <li> <a href="/services" class="header-link">
-                     Services </a> </li>
-                     <li> <a href="/career" class="header-link">
-                     Career </a> </li>
-                     <li> <a href="/partners"  class="header-link ">
-                         Partners </a> </li>
-                     <li> <a href="/contact-us" class="header-link">
-                     Contact Us </a> </li>
-                  
-             </ul>
-            </div>
+          </div>
         </ng-template>
-        <nav class="navbar  navbar-expand-lg navbar-dark">
+        <div class="ham-btn">
+         <img src="assets/ham.png"   (click)="openSidebar(contentSidebar)">
+        </div>
+      </div>
+    </nav>
+  </div>
+</header>
 
-
-            <div class="container-fluid px-3 py-2 px-md-5 py-md-5 mobile-menu-btn">
-            <div class="logo-wrap">
-               <a href="index.html"><img src="assets/logo.png" alt="Logo" ></a>
-            </div>
-
-            
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#navbarOffcanvas" aria-controls="navbarOffcanvas" aria-expanded="false"
-                    aria-label="Toggle navigation" (click)="open(content)">
-                    <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="offcanvas offcanvas-start desk_header_menu " id="navbarOffcanvas" tabindex="-1"
-                    aria-labelledby="offcanvasNavbarLabel">
-                    <div class="offcanvas-header">
-                        <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body ms-auto">
-                        <ul class="navbar-nav setNav left-nav">
-                            
-							   <li> <a routerLink="/"class="header-link">Home
-                                </a> </li>
-                               <li> <a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page">
-                                    About Us </a> </li>
-                               <li> <a routerLink="/blog" class="header-link">
-                                Blogs </a> </li>
-                                <li> <a routerLink="/services" class="header-link">
-                                Services </a> </li>
-                                <li> <a routerLink="/career" class="header-link">
-                                Career </a> </li>
-                                <li> <a routerLink="/partners"  class="header-link ">
-                                    Partners </a> </li>
-                                <li> <a routerLink="/contact-us" class="header-link">
-                                Contact Us </a> </li>
-                             
-                        </ul>
-                    
-                    </div>
-                </div>
-
-               
-            </div>
-
-        
-        </nav>
-    </div>
-
-    </header>
-
-    <!--:: Header Ends ::-->
+<!--:: Header Ends ::-->

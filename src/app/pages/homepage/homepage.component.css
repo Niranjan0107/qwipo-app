@@ -1,0 +1,32 @@
+.counter-section {
+    background-color: #f4f9f8;
+}
+
+.inner-counter p {
+    margin-bottom: 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.inner-counter h1 {
+    font-weight: 400;
+    font-size: 48px;
+}
+.inner-counter {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.inner-counter img {
+    width: 100%;
+    max-width: 100px;
+}
+
+.about-desc h3 {
+    font-weight: 400;
+}
+
+.about-desc p {
+    color: #6b6b6b;
+    font-size: 20px;
+}

@@ -1,5 +1,5 @@
-import { Component, TemplateRef } from '@angular/core';
-import { NgbOffcanvas, NgbOffcanvasConfig } from '@ng-bootstrap/ng-bootstrap';
+import { Component, TemplateRef, inject } from '@angular/core';
+import { NgbOffcanvas, NgbOffcanvasConfig, OffcanvasDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -22,5 +22,9 @@ export class HeaderComponent {
 
 	open(content: TemplateRef<any>) {
 		this.offcanvasService.open(content);
+	}
+
+	openSidebar(contentSidebar: TemplateRef<any>) {
+		this.offcanvasService.open(contentSidebar);
 	}
 }

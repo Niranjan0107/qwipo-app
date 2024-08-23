@@ -1,43 +1,43 @@
-/* testimonials starts */
-
-
-.post {
-    margin-bottom: 25px;
+.thought-wrap {
+    background-image: url(../../../../../assets/quote.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 25% auto;
 }
 
-.testimonial-col {
-    border: 1px solid #C6C6C6;
-    border-radius: 20px;
-    padding: 30px;
+.thoughts-slider p {
+    font-family: outfit, sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: .01px;
+    color: #6b6b6b;
 }
 
-.testimonial-col img {
-    width: 65px;
-    height: 65px;
-    object-fit: cover;
-    margin-bottom: 25px;
+.client-details img {
+    width: 45px;
 }
 
-/* testimonials end */
+.client-details {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 3px;
+    margin-left: 0;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 18px;
+    color: #686868;
+    line-height: 28px;
+    margin-top: 30px;
+}
 
-
-@media(min-width:1600px)
+@media(min-width:768px)
 {
- 
-
-    /* testimonials section */
-
-.testimonial-col {
-
-    min-height: 633px;
-}
-    /* testimonials section */
-
-    .testimonial-col img {
-        width: 103px;
-        height: 103px;
-    
+    .testionials-section .carousel-indicators {
+        margin-bottom: 14px !important;
+        margin-right: auto;
+        justify-content: flex-end;
     }
-    
 }
-
