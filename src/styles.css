@@ -680,15 +680,15 @@ body .thought-wrap {
     background-size: 17% auto;
 }
 body .inner-counter img {
-    max-width: 60px;
+    max-width: 60px !important;
 }
 
 body .inner-counter h1 {
-    font-size: 32px;
+    font-size: 32px !important;
 }
 
 body .inner-counter p {
-    font-size: 13px;
+    font-size: 13px !important;
 }
 }
 
