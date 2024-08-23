@@ -209,8 +209,6 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: auto;
-    opacity: .7;
-    transition: background .3s, border-radius .3s, opacity .3s;
 }
 
 .img-responsive {
