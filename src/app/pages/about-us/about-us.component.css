@@ -5,27 +5,35 @@
     margin-bottom: 25px;
 }
 .team-col h3 {
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 3px;
 }
 .team-col p
 {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 21.83px;
-}
-
-.team-col {
-    border: 1px solid #C6C6C6;
-    border-radius: 20px;
-    padding: 25px;
-    margin-bottom: 30px;
+    color: #919191;
 }
 
 .team-col img {
-    width: 190px;
-    height: 190px;
+    transform: translateY(0);
+    transition: .2s ease-in;
+}
+
+.team-col:hover img {
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: .2s ease-in;
+}
+
+.team-col img {
+    width: 100%;
+    border-radius: 6px;
+    min-height: 400px;
+    box-shadow: 0 0 15px rgb(0 0 0 / 15%);
     object-fit: cover;
     margin-bottom: 25px;
+    border-radius: 15px;
 }
 
 
@@ -34,28 +42,76 @@
     line-height: 31.11px;
 }
 
-.image-box img {
-    height: 248px;
+.image-box img {    height: 94px;
     object-fit: contain;
-    margin-bottom: 30px;
+    margin-bottom: 21px;
+    margin-top: 14px;
 }
 .image-box {
-    margin-bottom: 85px;
+    margin-bottom: 25px;
 }
 
 /* teams end */
 
+.challanges-section {
+    background-image: url(https://adventz.radiantthemes.com/wp-content/uploads/2022/06/demo-twelve-section-five-bg.png);
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: contain;
+}
+.challange-col.active .image-box, .challange-col .image-box:hover {
+    border-style: solid;
+    border-width: 0;
+    border-color: #f4f4f4;
+    box-shadow: 0 20px 20px 0 rgba(6.999999999999987, 11.000000000000057, 106, .07);
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    cursor: pointer;
+}
+.challange-col .image-box p {
+    font-size: 18px !important;
+}
+.challange-col .image-box {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f4f4f4;
+    padding: 20px;
+    transition: all .4s cubic-bezier(.2,0,.3,1) !important;
+    background-color: #fff;
+    border-radius: 10px;
+}
 
+.empower-section img {
+    mix-blend-mode: darken;
+}
 
-
+h6 {
+    color: #b97aee;
+    margin-bottom: 14px;
+}
 
 @media(min-width:768px)
 {
  
-
+    .team-row {
+        margin: 0 auto;
+        text-align: center;
+    }
+    
+    .team-row > * {
+        width: 20%;
+    }
     /* teams section */
 
     /* team section */
 
 
+}
+
+
+@media(max-width:767px)
+{
+    .challange-col .image-box p
+    {
+        min-width:100%;
+    }
 }

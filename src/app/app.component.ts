@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-
+import { Router } from '@angular/router';
 import { UsersThoughtsComponent } from './pages/homepage/components/users-thoughts/users-thoughts.component';
 import { BrandsComponent } from './pages/homepage/components/brands/brands.component';
 import { MainSliderComponent } from './pages/homepage/components/main-slider/main-slider.component';
@@ -17,5 +17,16 @@ import { HomepageComponent } from './pages/homepage/homepage.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'qwipo';
+  title = 'Qwipo';
+  constructor(private router: Router) {
+    this.router.events.subscribe(event => {
+      console.log(event);
+    });
+  }
+goToHome() {
+  this.router.navigate(['/home']);
+}
+
+
+
 }

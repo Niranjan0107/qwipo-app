@@ -5,10 +5,14 @@
 
 .phone-desc p
 {
-    margin: 35px 0px;
+    margin: 15px 0px;
 }
 
-
+h6 {
+    color: #b97aee;
+    margin-bottom: 0;
+    font-size: 12px;
+}
 .phone-desc p {
     font-weight: 400;
     letter-spacing: -0.02em;
@@ -52,36 +56,63 @@
     border-radius: 20px;
     margin-bottom: 1.6rem;
 }
-
+.phone-desc h1 {
+    font-size: 42px;
+}
 
 @media(min-width:1600px)
 {
-    .phone-desc p {
-        font-size: 32px;
-        line-height: 38.82px;
-    }
-    
-    .phone-desc a {
-        font-size: 32px;
-        line-height: 38.82px;
-    }
+  
+   
 
-
-    .solution-wrap p {
-        font-size: 20px;
-        line-height: 24.26px;
-      
-    }
-    
-    .solution-wrap h4 {
-        font-size: 28px;
-        line-height: 32.32px;
-    }
 }
 
 @media(min-width:768px)
 {
     .solution-wrap p {
         min-height: 100px;
+    }
+    .phone-desc a
+    {
+
+        display: block;
+    }
+    .phone-desc h1, .phone-desc p, .phone-desc a, .phone-desc h6 {
+        max-width: 80%;
+    }
+
+    .phone-desc:nth-child(even) h1, .phone-desc:nth-child(even) p, .phone-desc:nth-child(even) a, .phone-desc:nth-child(even) h6 {
+        margin-left: auto;
+    }
+
+    .application-section .row {
+        position: relative;
+    }
+    .application-section .row:after {
+        content: "";
+        background-image: url(https://adventz.radiantthemes.com/wp-content/uploads/2022/06/demo-twelve-section-five-bg.png);
+        background-position: bottom;
+        background-size: contain;
+        width: 100%;
+        height: 158px;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        background-repeat: no-repeat;
+        transform: rotate(-37deg);
+        z-index: -1;
+    }
+    .application-section .row:last-child:after
+    {
+display: none;
+    }
+    .application-section .row:nth-child(even)::after
+    {
+        transform: rotate(37deg);
+    }
+    .phone-desc p {
+        color: #837f7f;
+        font-size: 16px;
+        font-weight: 300 !important;
     }
 }
