@@ -3,6 +3,17 @@
 .brand-section .row {
     justify-content: space-between;
 }
+
+.logo-slider {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  
+  .carousel .slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 @media(min-width:768px)
 {
 .brand-col {

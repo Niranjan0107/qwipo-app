@@ -8,11 +8,12 @@ import { FooterComponent } from './otherComponents/footer/footer.component';
 import { HeaderComponent } from './otherComponents/header/header.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
+import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, FooterComponent, HeaderComponent, HeaderComponent, UsersThoughtsComponent, BrandsComponent, MainSliderComponent, AboutUsComponent, HomepageComponent],
+  imports: [RouterOutlet, FooterComponent, HeaderComponent, SlickCarouselModule, HeaderComponent, UsersThoughtsComponent, BrandsComponent, MainSliderComponent, AboutUsComponent, HomepageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

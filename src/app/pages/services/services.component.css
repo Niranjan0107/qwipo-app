@@ -1,8 +1,13 @@
+
 .phone-image img
 {
     max-width: 100%;
 }
 
+h1.big {
+    font-size: 55px;
+    font-weight: 500;
+}
 .phone-desc p
 {
     margin: 15px 0px;
@@ -25,32 +30,38 @@
 
 
 .solution-wrap p {
-    font-weight: 400;
-    letter-spacing: -0.02em;
+  
     text-align: left;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.01px;
+    color: #6B6B6B;
 }
 
 .solution-wrap h4 {
-    font-weight: 600;
     letter-spacing: -0.02em;
     text-align: left;
     margin-bottom: 25px;
+    color: #060815;
 }
 .solution-wrap img {
     max-height: 320px;
     object-fit: contain;
-    height: 320px;
-    width: 85%;
+    height: 125px;
+    width: 50%;
     margin: 0 auto;
-    text-align: center;
-    display: flex;
     margin-bottom: 32px;
 }
 .solution-wrap {
-    border: 1px solid #C6C6C6;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 6px;
     margin-bottom: 1.6rem;
+    box-shadow: 0 20px 69px 0 rgba(8.000000000000005, 37.00000000000005, 92, .07);
+    background: #fff;
+}
+.solution-wrap:hover {
+    box-shadow:0 0 20px 0 rgba(8.000000000000005,37.00000000000005,92,.07);
+    cursor: pointer;
 }
 .phone-desc h1 {
     font-size: 42px;
@@ -58,8 +69,19 @@
 
 
 
+.big-image img {
+    width: 100%;
+    filter: brightness(0.8);
+    opacity: 0.27;
+    position: relative;
+    z-index: -1;
+}
+
 @media(min-width:768px)
 {
+    .big-image {
+        margin-bottom: -135px;
+    }
     .solution-wrap p {
         min-height: 100px;
     }
@@ -106,3 +128,7 @@ display: none;
         font-size: 17px;
     }
 }
+
+
+
+

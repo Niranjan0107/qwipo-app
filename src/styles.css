@@ -1,5 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-
 html, body { height: 100%; }
 body { margin: 0;   font-family: "Outfit", sans-serif;
 }
@@ -13,6 +12,9 @@ p {
 }
 @media(min-width:768px)
 {
+    .challange-col .image-box {
+        min-height: 285px;
+    }
 
     h2 {
         font-family: 'Jost', sans-serif;
@@ -127,23 +129,32 @@ p {
     }
 
     .brand-section .row {
-        max-width: 80%;
+        max-width: 100%;
         margin-left: auto;
         margin-right: auto;
         margin-top: 100px;
     }
-    
+    body .brand-col:first-child img {
+        max-width: 97px !important;
+    }
     .brand-section .row img {
-        max-width: 165px !important;
+        max-width: 140px !important;
     }
 
     /* need section */
 .need-col {
-    min-height: 456px;
+    min-height: 445px;
     display: flex;
     flex-direction: column;
 
 }
+
+.need-row .col-12
+{
+    flex: 0 0 auto;
+    width: 30%;
+}
+
 .empower-section h1 {
     max-width: 900px;
     margin-left: auto;
@@ -362,6 +373,20 @@ font-weight: 400;
     h1 {
         font-size: 32px;
     }
+   .home-title {
+        margin-top: 35px;
+    }
+
+    .mail-slider {
+        flex-direction: column-reverse;
+    }
+
+    .team-col {
+        text-align: center;
+    }
+    body .phone-desc h1 {
+        font-size: 35px;
+    }
     button.navbar-toggler {
         filter: invert(1);
     }
@@ -409,8 +434,10 @@ font-weight: 400;
         padding-bottom: 20px;
         margin-top: 20px;
     }
-    .brand-section {
-        margin-top: 90px !important;
+    body .contact small {
+        color: #ffffff !important;
+        font-size: 17px;
+     
     }
     .middle-need-col {
         margin-top: 1.5rem ;
@@ -726,12 +753,21 @@ body .inner-counter p {
 } */
 
 
+@media(max-width:767px)
+{
+    body .empower-section1 h1.big {
+        font-size: 30px;
+        font-weight: 500;
+    }
 
+    body .big-image img {
+        margin-bottom: -65px;
+    }
+}
 
 .throught-image img {
     width: 100%;
 }
-
 
 
 
