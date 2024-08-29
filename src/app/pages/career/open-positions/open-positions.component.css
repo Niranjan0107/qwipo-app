@@ -37,25 +37,6 @@
 }
 
 
-@media(min-width:1600px)
-{
-    .apply-btn a {
-        font-size: 28px;
-        line-height: 35.82px;
-   
-    }
-    
-    .job-details p {
-        font-size: 18px;
-        line-height: 21.83px;
-    
-    }
-    
-    .job-details h3 {
-        font-size: 35px;
-        line-height: 43.67px;
-    }
-}
 
 
 @media(min-width:768px)

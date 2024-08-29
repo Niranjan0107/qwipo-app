@@ -4,23 +4,31 @@
 }
 
 .inner-counter p {
-    margin-bottom: 0;
-    font-size: 18px;
     text-align: left;
+    color: #060815;
+    font-family: outfit, Sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: .16px;
 }
 
 .inner-counter h1 {
+    color: #060815;
+    font-family: outfit, Sans-serif;
+    font-size: 50px;
     font-weight: 400;
-    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -.64px;
 }
 .inner-counter {
     display: flex;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 10px;
 }
 .inner-counter img {
     width: 100%;
-    max-width: 100px;
+    max-width: 80px;
 }
 
 .about-desc h3 {

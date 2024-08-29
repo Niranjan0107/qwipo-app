@@ -1,5 +1,14 @@
 @media(min-width:768px)
 {
+    
+
+    .main-slider h1 {
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 72px;
+        letter-spacing: -.64px;
+    }
+
     .picsum-img-wrapper > * {
         width: 49%;
     }
@@ -17,4 +26,10 @@
         border-radius: 50px;
     }
  
+}
+
+
+
+.home-image img {
+    width: 100%;
 }

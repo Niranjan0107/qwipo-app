@@ -7,40 +7,62 @@ body { margin: 0;   font-family: "Outfit", sans-serif;
     border-bottom: 1px solid black;
     padding-bottom: 5px;
 }
-@media(min-width:1600px)
-{
-    .container {
-        max-width: 1580px;
-    }
-    .small, small {
-        font-size: 20px;
-        line-height: 30px;
-    }
 
-h1
-{
-font-size: 64px;
-line-height: 77.63px;
-letter-spacing: -0.02em;
+p {
+    font-size: 17px;
 }
-
-p
-{
-font-size: 21px;
-line-height: 27.11px;
-}
-.picsum-img-wrapper img {
-    min-height: 800px;
-    object-fit: cover;
-}
-}
-
-
 @media(min-width:768px)
 {
+
+    h2 {
+        font-family: 'Jost', sans-serif;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 42px;
+        line-height: 48px;
+        letter-spacing: -0.04px;
+        color: #060815;
+    }
+    h5 {
+        font-family: 'Jost', sans-serif;
+        font-weight: 500;
+        text-transform: capitalize;
+        font-size: 24px;
+        line-height: 31px;
+        letter-spacing: -0.01px;
+        color: #060815;
+    }
+    .need-col p small {
+        font-size: 17px;
+    }
+
+
     .desktop-toggle {
         position: relative;
         right: 96px;
+    }
+    .container.main-slider:before {
+        content: "";
+        background-image: url(https://adventz.radiantthemes.com/wp-content/uploads/2022/08/Rectangle-952.png);
+        background-position: 679px 0;
+        background-repeat: no-repeat;
+        background-size: auto;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        right: 0;
+    }
+    .counter-section .row .col-12 {
+        padding: 0;
+    }
+    ul.navbar-nav.setNav.left-nav {
+        margin-left: 94px;
+    }
+    ul.navbar-nav.setNav.left-nav li a {
+        padding: 24px 15px;
+        margin: 0 20px 0 0;
     }
     ul.social-icon li img {
         width: 24px;
@@ -56,6 +78,11 @@ line-height: 27.11px;
         display: flex;
         column-gap: 20px;
     }
+
+.desktop-header  {
+    height: 90px;
+}
+    
     body .inner-pc-main p {
         font-size: 17px;
         line-height: 1.3;
@@ -135,7 +162,7 @@ line-height: 27.11px;
     display: flex;
     justify-content: space-around;
     position: relative;
-    max-width: 28%;
+    max-width: 33%;
     margin: 0 4%;
 }
 .border-lr:after {
@@ -245,7 +272,7 @@ body {
 .need-col h3 {
     margin-bottom: 15px;
     color: #000;
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 400;
 }
 .need-col img {
@@ -313,7 +340,7 @@ color: #6b6b6b;
 font-size: 20px;
 font-weight: 400;
 }
-.need-section h6 {
+.need-section h6, h6 {
     color: #bb77ff;
     font-size: 17px;
     font-weight: 500;
@@ -583,7 +610,7 @@ ngb-offcanvas-panel.offcanvas.offcanvas-end.show {
 
 /* All other dektops nd laptops below than 1600px */
 
-@media(min-width:1180px) and (max-width:1599px)
+/* @media(min-width:1180px) and (max-width:1599px)
 {
 p
 {
@@ -696,7 +723,7 @@ body .inner-counter h1 {
 body .inner-counter p {
     font-size: 13px !important;
 }
-}
+} */
 
 
 
@@ -704,3 +731,47 @@ body .inner-counter p {
 .throught-image img {
     width: 100%;
 }
+
+
+
+
+
+
+@media screen and (min-width: 1601px) {
+
+    .challange-col .image-box {
+        min-height: 285px;
+    }
+    .desktop-header
+     {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+    ul.navbar-nav.setNav.left-nav li a {
+        padding: 24px 20px;
+        margin: 0 20px 0 0;
+    }
+
+    ul.navbar-nav.setNav.left-nav {
+        margin-left: 138px;
+    }
+    .home-image img {
+        width: 118% !important;
+        position: relative;
+        top: 50px;
+    }
+
+    .counter-section.section {
+        height: 230px;
+        display: flex;
+        align-items: center;
+    }
+
+    .need-section .col-12
+    {
+        flex: 0 0 auto;
+            width: 29%;
+    }
+}
+
+

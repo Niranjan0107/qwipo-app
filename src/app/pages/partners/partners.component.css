@@ -16,14 +16,3 @@
     max-width: 100%;
 }
 
-@media(min-width:1600px)
-{
-    .partner-intro h3 {
-        font-size: 48px;
-        line-height: 58.22px;
-    }
-    .partner-intro p {
-        font-size: 32px;
-        line-height: 38.82px;
-    }
-}

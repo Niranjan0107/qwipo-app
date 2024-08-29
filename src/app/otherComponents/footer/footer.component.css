@@ -24,8 +24,10 @@
 {
     color: #fff;
     text-decoration: none;
-    line-height: 2;
-    font-size: .875em;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: .16px;
 }
 .footer-section ul
 {
@@ -70,7 +72,9 @@
 
 .copyright p {
     color: #878181;
-    font-size: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
 }
 .contact-sec {
     position: relative;
@@ -93,7 +97,15 @@
 }
 .chat h1 img {
     width: 100%;
-    max-width: 65px;
+    max-width: 52px;
+}
+
+.contact small {
+    color: #878181;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: -.64px;
 }
 
 @media(min-width:768px)
@@ -118,42 +130,3 @@
         grid-template-columns: auto auto;
     }
 }
-
-@media(min-width:1600px)
-{
-    .footer-section ul li a
-    {
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 60px;
-        letter-spacing: -0.02em;
-        text-align: left;
-
-    }
-}
-
-@media(min-width:1600px)
-{
-    .container {
-        max-width: 1580px;
-    }
-    .small, small {
-        font-size: 18px;
-        line-height: 25px;
-    }
-
-h1
-{
-font-size: 64px;
-line-height: 77.63px;
-letter-spacing: -0.02em;
-}
-
-p
-{
-font-size: 24px;
-line-height: 29.11px;
-}
-
-}
-
