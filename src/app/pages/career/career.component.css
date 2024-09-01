@@ -1,0 +1,57 @@
+.career-image img {
+    border-radius: 78px;
+}
+.career-image {
+    position: relative;
+}
+.career-image:after {
+    background-image: url(../../../assets/demo-four-Ellipse3.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -100px;
+    right: 0;
+    z-index: -1;
+    right: -50px;
+}
+
+.career-text a {
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 24px !important;
+    letter-spacing: .01em;
+    background-color: #242879;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 12px 40px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+
+@media(max-width:767px)
+{
+    .mobile-column-reverse {
+        flex-direction: column-reverse;
+    }
+    
+    .career-image:after {
+
+        top: -51px !important;
+        right: 0 !important;
+    }
+
+    .career-text 
+    {
+        margin-top: 40px;
+    }
+
+  
+
+}

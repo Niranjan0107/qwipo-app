@@ -137,9 +137,7 @@ p {
     body .brand-col:first-child img {
         max-width: 97px !important;
     }
-    .brand-section .row img {
-        max-width: 140px !important;
-    }
+   
 
     /* need section */
 .need-col {
@@ -247,6 +245,17 @@ font-weight: 400;
     background-color: #fffcfa;
 }
 
+.brand-col img {
+    max-height: 45px;
+    object-fit: contain;
+    width: 97% !important;
+}
+.brand-col {
+    box-shadow: 0 20px 55px 7px rgb(255 206 191);
+    background-color: #fff;
+    border-radius: 13px;
+    padding: 20px;
+}
 body {
     margin: 0;
     font-family: "Outfit", sans-serif;
@@ -397,17 +406,41 @@ font-weight: 400;
         flex-wrap: nowrap;
         overflow: auto;
     }
+    .justify-content-sm-center {
+        justify-content: center;
+    }
+    .apply-btn a {
+        width: 100%;
+        text-align: center !important;
+    }
+    .job-details h3 {
+        font-size: 24px !important;
+    }
+  .apply-btn {
+        text-align: left;
+        margin-top: 21px;
+    }
+    .contact-box {
+        margin-bottom: 40px !important;
+    }
     .testimonial-col {
         margin-bottom: 30px;
     }
-    .contact-container .contact-details {
-        padding: 30px !important;
+    body .apply-btn a
+    {
+        border-radius: 13px !important;
+    }
+    body .contact-form-main .contact-form {
+        padding: 30px 30px 40px;
+    }
+    .contact-form input[type="submit"] {
+        width: 100%;
     }
     .contact-detail {
         margin-top: 100px;
     }
     .contact-container {
-        padding: 30px !important;
+        padding: 15px !important;
     }
     .blog-wrap a {
         margin-top: 20px;
@@ -599,7 +632,6 @@ body .picsum-img-wrapper img, .picsum-img-wrapper {
 /* For mobile devices */
 
 button.btn-close {
-    filter: invert(1);
     opacity: 1;
     font-size: 23px;
     position: absolute;
@@ -608,18 +640,15 @@ button.btn-close {
 }
 
 
-
 ngb-offcanvas-panel.offcanvas.offcanvas-end.show li {
     margin-bottom: 31px;
     margin-left: 26px;
 }
 
-ngb-offcanvas-panel.offcanvas.offcanvas-end.show li a {
-    color: #fff !important;
-}
+
 ngb-offcanvas-panel.offcanvas.offcanvas-end.show {
-    background-color: #2D1352;
-    color: #fff;
+    background-color: #ffdbd0;
+    width: 100%;
 }
 
 
@@ -758,6 +787,11 @@ body .inner-counter p {
     body .empower-section1 h1.big {
         font-size: 30px;
         font-weight: 500;
+    }
+    body ngb-offcanvas-panel.offcanvas.offcanvas-end.show li a
+    {
+        font-size: 20px !important;
+        font-weight: 500 !important;
     }
 
     body .big-image img {

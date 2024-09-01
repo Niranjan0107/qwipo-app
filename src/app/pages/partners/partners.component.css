@@ -16,3 +16,14 @@
     max-width: 100%;
 }
 
+.partner-col img {
+    height: 40px;
+    object-fit: contain;
+}
+
+.partner-col .col-inner {
+    box-shadow: 0 20px 55px 7px rgb(255 206 191);
+    background-color: #fff;
+    border-radius: 13px;
+    padding: 20px;
+}
