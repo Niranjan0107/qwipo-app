@@ -25,4 +25,12 @@
         </div>
     </div>
   </div>
+
+  <div class="carousel-container">
+    <ngx-slick-carousel class="carousel" [config]="slideConfig">
+      <div ngxSlickItem *ngFor="let img of images" class="slide">
+        <img [src]="img" alt="carousel image">
+      </div>
+    </ngx-slick-carousel>
+  </div>
     <!-- Brands starts ends -->
