@@ -33,11 +33,60 @@
     margin-top: 30px;
 }
 
+.single-video img {
+    width: 94%;
+    height: 265px;
+    object-fit: cover;
+    box-shadow: 0 20px 55px 7px rgb(255 206 191);
+    border-radius: 13px;
+    cursor: pointer;
+    transform: translateY(0px);
+transition: .3s ease-in;
+
+}
+.single-video img:hover {
+
+    box-shadow:0 20px 55px 7px rgb(255 252 250);
+    transform: translateY(-20px);
+    transition: .3s ease-in;
+
+}
+.single-video {
+    text-align: center;
+}
+
+.load-more {
+    text-align: center;
+}
+
+.load-more button {
+    background: none;
+    border: 0;
+    padding: 0;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ffd5c7;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
 @media(min-width:768px)
 {
+
+    .load-more {
+        margin-top: 100px;
+    }
     .testionials-section .carousel-indicators {
         margin-bottom: 14px !important;
         margin-right: auto;
         justify-content: flex-end;
     }
+
+    .modal-body iframe
+    {
+        max-width: var(--bs-modal-width);
+    }
 }
+
+

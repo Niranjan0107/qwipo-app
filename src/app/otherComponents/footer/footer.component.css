@@ -36,23 +36,7 @@
     list-style: none;
 }
 
-.media-images ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-}
-.media-images ul li {
-    width: 45%;
-    margin: 20px 0px;
-}
-.media-images ul li img {
-    width: 100%;
-}
-.media-images ul {
-    margin-left: 0;
-    padding-left: 0;
-}
+
 
 .contact-sec h3 img {
     height: 37px;
@@ -130,3 +114,5 @@
         grid-template-columns: auto auto;
     }
 }
+
+

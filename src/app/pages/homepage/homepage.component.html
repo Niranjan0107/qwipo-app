@@ -71,7 +71,7 @@
 <!-- Empower section ends -->
 
 <!-- Need section starts-->
-<div class="need-section mb-5 py-md-5">
+<!-- <div class="need-section mb-5 py-md-5">
   <div class="text-center pb-md-5">
     <h6>FEATURES</h6>
     <h1>Everything you need, all in one place.</h1>
@@ -156,9 +156,64 @@
       </div>
     </div>
   </div>
+</div> -->
+
+
+
+
+<div class="need-section mb-5 py-md-5">
+  <div class="text-center pb-md-5">
+    <h6>Get Started</h6>
+    <h1>Transforms Your Business with Unmatched Benefits
+    </h1>
+  </div>
+
+  <div class="container my-5">
+    <div class="row align-items-start need-row justify-content-center">
+   
+
+
+      <div class="col-12 col-sm-3" *ngFor="let item of items; let i = index">
+        <div class="need-col mb-3">
+          <h3>{{ item.title }}</h3>
+          <div class="separator">
+            <div class="separator-dash"></div>
+          </div>
+          <div class="need-image">
+          <img [src]="item.image" class="img-responsive" />
+        </div>
+          <p>
+            <small>
+              <span [innerHTML]="item.isExpanded ? item.longDescription : item.shortDescription"></span>
+            </small>       
+            <button (click)="toggleReadMore(i)">
+              {{ item.isExpanded ? 'Read Less' : 'Read More' }}
+            </button>
+          </p>
+    
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </div>
 </div>
+
 <!-- Need section ends-->
 
 <!-- Testimonials section start -->
 <app-users-thoughts></app-users-thoughts>
 <!-- Testimonials section ends -->
+
+<div class="upper-footer">
+  <div class="upper-footer-inner media-images">
+      <h1 class="mb-5 mt-3">Media Showcase</h1>
+      <ul>
+          <li><img src="assets/showcase1.png"></li>
+          <li><img src="assets/showcase2.png"></li>
+          <li><img src="assets/showcase3.png"></li>
+      </ul>
+  </div>
+</div>
