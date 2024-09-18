@@ -10,12 +10,19 @@ body { margin: 0;   font-family: "Outfit", sans-serif;
 p {
     font-size: 17px;
 }
+p {
+
+    color: #6b6b6b;
+}
 @media(min-width:768px)
 {
     .challange-col .image-box {
         min-height: 285px;
     }
-
+    .home-title {
+        position: relative;
+        top: -70px;
+    }
     h2 {
         font-family: 'Jost', sans-serif;
         font-weight: 500;
@@ -394,7 +401,9 @@ font-weight: 400;
     .mail-slider {
         flex-direction: column-reverse;
     }
-
+    .media-images {
+        margin-bottom: 30px;
+    }
     .team-col {
         text-align: center;
     }
@@ -434,6 +443,31 @@ font-weight: 400;
     body .apply-btn a
     {
         border-radius: 13px !important;
+    }
+    body .media-images ul li {
+        min-width: 40%;
+        margin: 13px 0px !important;
+        padding: 0px 15px !important;
+    }
+    .testionials-section .row.video-row > * {
+        width: 82%;
+    }
+    body .media-images ul {
+
+        column-gap: 12px;
+    }
+    body .upper-footer {
+    
+        padding: 24px 0px !important;
+    }
+    .testionials-section .row.video-row {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow: auto;
+    }
+    .testionials-section .row.video-row {
+        margin-bottom: 30px;
     }
     body .contact-form-main .contact-form {
         padding: 30px 30px 40px;
@@ -611,9 +645,9 @@ body .brand-col {
         padding: 15px !important;
     }
     
-    body .footer-section .row {
+    /* body .footer-section .row {
         flex-direction: column-reverse;
-    }
+    } */
 body .contact-sec h3 {
     font-size: 26px !important;
 }
@@ -858,9 +892,21 @@ body .inner-counter p {
 }
 
 
-body button.btn-close {
+body .testionials-popup button.btn-close {
     position: absolute;
     top: -42px !important;
     right: 0;
     filter: invert(1) !important;
+}
+
+button.primary-btn {
+    background: none;
+    border: 0;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    background-color: #ffd5c7;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: 600;
 }
