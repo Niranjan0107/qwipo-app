@@ -379,6 +379,7 @@ font-weight: 400;
     text-transform: uppercase;
     line-height: 15px;
     letter-spacing: 1.76px;
+    margin-left: 3px;
 }
 
 /* need setion ends */
@@ -645,9 +646,10 @@ body .brand-col {
         padding: 15px !important;
     }
     
-    /* body .footer-section .row {
+/* body .footer-section .row {
         flex-direction: column-reverse;
-    } */
+} */
+
 body .contact-sec h3 {
     font-size: 26px !important;
 }
