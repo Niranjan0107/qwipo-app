@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NgModule } from '@angular/core';
-
+import { RouterModule } from '@angular/router';
 import { RouterOutlet } from '@angular/router';
 import { Router } from '@angular/router';
 import { UsersThoughtsComponent } from './pages/homepage/components/users-thoughts/users-thoughts.component';

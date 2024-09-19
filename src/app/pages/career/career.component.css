@@ -34,13 +34,68 @@
     display: inline-block;
 }
 
+.apply-section a {
+    color: #2a2e37;
+    text-decoration: none;
+}
+.work-section
+{
+    background-image: url(https://adventz.radiantthemes.com/wp-content/uploads/2022/06/demo-twelve-section-five-bg.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.work-section .challange-col .image-box {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f4f4f4;
+    padding: 20px;
+    transition: all .4s cubic-bezier(.2, 0, .3, 1) !important;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 55px 7px rgba(8.00000000000001, 45.00000000000004, 117, .06);
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    cursor: pointer;
+}
+
+.work-section .challange-col .image-box:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.apply-section a:hover {
+    text-decoration: underline;
+}
+
+.work-section .challange-col h4 {
+    margin-top: 13px;
+}
+
+@media(min-width:768px)
+{
+    .work-section .challange-col .image-box {
+    min-height: 360px;
+}
+}
 
 @media(max-width:767px)
 {
     .mobile-column-reverse {
         flex-direction: column-reverse;
     }
-    
+
+    .work-section .challange-col .image-box p {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 18px;
+    }
+    .work-section {
+
+        background-position: center;
+        background-size: contain;
+    }
     .career-image:after {
 
         top: -51px !important;

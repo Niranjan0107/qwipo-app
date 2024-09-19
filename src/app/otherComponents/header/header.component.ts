@@ -1,9 +1,12 @@
 import { Component, TemplateRef, inject } from '@angular/core';
 import { NgbOffcanvas, NgbOffcanvasConfig, OffcanvasDismissReasons } from '@ng-bootstrap/ng-bootstrap';
+import { RouterOutlet } from '@angular/router';
+
+
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [],
+  imports: [RouterOutlet],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
   providers: [NgbOffcanvasConfig, NgbOffcanvas],
