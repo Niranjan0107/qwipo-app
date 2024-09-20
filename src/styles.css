@@ -254,11 +254,12 @@ font-weight: 400;
 
 .brand-col img {
     max-height: 45px;
+    height: 45px;
     object-fit: contain;
     width: 97% !important;
 }
 .brand-col {
-    box-shadow: 0 20px 55px 7px rgb(255 206 191);
+    box-shadow: 0 6px 15px 4px rgb(255 206 191 / 52%);
     background-color: #fff;
     border-radius: 13px;
     padding: 20px;
@@ -381,6 +382,11 @@ font-weight: 400;
     letter-spacing: 1.76px;
     margin-left: 3px;
 }
+
+.swiper-horizontal {
+    touch-action: pan-y;
+    padding: 0px 20px !important;
+  }
 
 /* need setion ends */
 
@@ -634,12 +640,15 @@ body .brand-col {
 
     margin-bottom: 20px;
 }
+.brand-row {
+    margin-top: 30px;
+}
 .brand-col {
     margin-right: 15px;
 }
 
 body .brand-col {
-    width: 33%;
+    width: 57% !important;
     text-align: center;
 }
     body .footer-section {

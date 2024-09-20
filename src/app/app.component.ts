@@ -11,6 +11,10 @@ import { HeaderComponent } from './otherComponents/header/header.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { CommonModule } from '@angular/common'; 
+import { register } from 'swiper/element/bundle';
+
+register();
+
 
 @Component({
   selector: 'app-root',
