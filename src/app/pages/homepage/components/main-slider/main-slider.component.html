@@ -37,8 +37,13 @@
 	
 <!-- <h6>business consultant</h6> -->
 <h1>Progressive India <br>Trades on Qwipo</h1>
-<p>Welcome to India’s leading online B2B marketplace that connects top-tier manufacturers, small- and medium-sized enterprises, and micro-businesses with thousands of local business retailers and Kirana stores across the country.</p>
-<button href="#" class="primary-btn">Join FREE</button>
+<p>
+    {{ isExpanded ? fullDescription : shortDescription }}
+    <span *ngIf="!isExpanded">...</span>   <span (click)="toggleReadMore()">{{ isExpanded ? 'Read Less' : 'Read More' }}</span>
+
+  </p>
+  
+  <button href="#" class="primary-btn">Join FREE</button>
 </div>
 
 <div class="col-12 col-md-7 home-image">

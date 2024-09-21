@@ -258,7 +258,7 @@ font-weight: 400;
     object-fit: contain;
     width: 97% !important;
 }
-.brand-col {
+.brand-col .inner-brand {
     box-shadow: 0 6px 15px 4px rgb(255 206 191 / 52%);
     background-color: #fff;
     border-radius: 13px;
@@ -920,4 +920,9 @@ button.primary-btn {
     padding: 12px 25px;
     border-radius: 10px;
     font-weight: 600;
+}
+
+.swiper-horizontal, .swiper {
+    touch-action: pan-y;
+    padding: 0px 10px !important;
 }

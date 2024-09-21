@@ -8,7 +8,10 @@
     max-width: 100%;
     margin: 0 auto;
   }
-  
+  .swiper-horizontal, .swiper {
+    touch-action: pan-y;
+    padding: 0px 10px !important;
+}
   .carousel .slide img {
     width: 100%;
     height: auto;

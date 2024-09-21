@@ -33,3 +33,8 @@
 .home-image img {
     width: 100%;
 }
+
+.home-title span {
+    color: #ed8058;
+    cursor: pointer;
+}
