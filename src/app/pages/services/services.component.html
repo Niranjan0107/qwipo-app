@@ -1,5 +1,5 @@
 <div class="container">
-    <div class="row justify-content-center mb-5 mt-md-5">
+    <div class="row justify-content-center mb-md-5 mt-md-5">
         <div class="col-12 col-md-10 col-lg-10 pt-5 text-center big-image">
             <img src="https://adventz.radiantthemes.com/wp-content/uploads/2022/04/SERVICE.png">
     </div>
@@ -9,12 +9,10 @@
   <!-- Empower section starts -->
   <div class="empower-section1  text-center">
     <div class="container">
-        <div class="row justify-content-center  mb-5">
+        <div class="row justify-content-center mb-1 mb-md-5">
             <div class="col-12 col-md-10 col-lg-10  text-center">
-                <h6>WHY CHOOSE US?</h6>
 
-            <h1 class="pt-2 pb-3 big">Empower Your Business with Cutting-Edge Technology and Stay Ahead of the Curve</h1>
-            <p>Supercharge your sales, productivity, and efficiency with our user-friendly app, putting advanced technology at your fingertips. Connect with thousands of customers effortlessly and unlock your business's full potential today </p>
+            <h1 class="pt-3 mt-1 pb-md-3 big">Explore the Game-Changing QWIPO Platform</h1>
         </div>
         </div>
 
@@ -24,17 +22,70 @@
     <!-- Empower section ends -->
 
 
+<!-- Why qwippo service -->
+
+
+  
+  <div class="why-section text-center pb-md-5">
+    <div class="container mt-5">
+      <div class="row justify-content-center">
+        <div class="col-11 col-md-3 why-col">
+          <div class="image-box">
+            <img src="assets/why1.png" class="w-90" />
+            <h4>Fully Managed Cloud-Based Platform</h4>
+            <p>Transforming the way SME vendors and business retailers operate, QWIPO offers a fully managed backend with a user-friendly web interface and four dynamic mobile applications. 
+
+            </p>
+          </div>
+        </div>
+  
+        <div class="col-11 col-md-3 why-col">
+          <div class="image-box">
+            <img src="assets/why2.png" class="w-90" />
+            <h4>Vendor-Facing Tools</h4>
+            <p>The system features a web and mobile app for vendors, providing suppliers with comprehensive real-time and historical views of their business to make data-driven decisions. 
+            </p>
+          </div>
+        </div>
+  
+        <div class="col-11 col-md-3 why-col">
+          <div class="image-box">
+            <img src="assets/why3.png" class="w-90" />
+            <h4>Tools for Market Ops and Delivery</h4>
+            <p>To streamline field operations and empower your teams, the system offers dedicated mobile apps for sales agents and delivery personnel. 
+            </p>
+          </div>
+        </div>
+  
+        <div class="col-11 col-md-3 why-col">
+          <div class="image-box">
+            <img src="assets/why4.png" class="w-90" />
+            <h4>Customer-Facing Tools</h4>
+            <p>A retailers’ mobile app keeps your customers connected with your Qwipo distribution system, empowering them to place and track their orders, manage payments and returns, and more.
+            </p>
+          </div>
+        </div>
+  
+      
+  
+       
+
+      </div>
+    </div>
+  </div>
+  <!-- Why qwippo service -->
+
+
 
     <!-- Application section -->
 
-    <div class="container application-section mt-5 pt-md-5">
+    <div class="container application-section mt-5 pt-md-3">
        
         <div class="row justify-content-center align-items-center my-5">
             <div class="col-12 col-md-6 phone-desc">
-                <h6>OUR SERVICES</h6>
-                <h1>Vendor Application</h1>
-                <p>The vendor App enables you to control your entire business from anywhere. Track your payments from customers, sales, inventory, returns, top-selling products, and more. Exploit upselling and cross-selling opportunities, run primary and secondary pricing schemes, and get competitive market insights and insights for the right pricing strategy.</p>
-                <a href="#">Learn more</a>  
+                <h1>The Vendors Mobile App</h1>
+                <p>As an SME or a microbusiness, you can manage distribution operations on the go with Qwipo’s Vendor Mobile App. Designed to let you manage operations from anywhere, anytime, the native Android and iOS app allows you to keep tabs on customer payments, sales, inventory, and product returns. Harness upselling and cross-selling opportunities, implement main and secondary pricing strategies and gain vital market intelligence for optimal pricing tactics. Finance your customers, schedule delivery vans, and maintain 24/7 customer engagement.</p>
+                <button (click)="open(contentMobile)">View more</button>  
 
             </div>
 
@@ -52,11 +103,10 @@
             <div class="col-12 col-md-3 phone-image">
                 <img src="assets/phone2.png">
             </div>
-            <div class="col-12 col-md-6 phone-desc">
-                <h6>OUR SERVICES</h6>
-                <h1>Customer Application</h1>
-                <p>This app aids retailers, with access to a vast product range, AI-driven recommendations, digital payments, credit options, demand forecasting, and more, retailers can streamline operations effortlessly, enhancing efficiency and convenience.</p>
-                <a href="#">Learn more</a>  
+            <div class="col-12 col-md-6 phone-desc offset-desc">
+                <h1>The Business Retailers Mobile App</h1>
+                <p>Connect seamlessly to QWIPO’s extensive marketplace of vendors and sellers via this native mobile app. Retailers can explore a vast array of products, benefit from AI-driven recommendations, execute digital payments, leverage diverse credit options, forecast demand, and operate their businesses more effectively and efficiently.</p>
+                <button (click)="open(contentRetailers)">View more</button>  
 
             </div>
 
@@ -67,10 +117,9 @@
          
         <div class="row justify-content-center align-items-center my-5">
             <div class="col-12 col-md-6 phone-desc">
-                <h6>OUR SERVICES</h6>
-                <h1>FA Application</h1>
-                <p>QWIPO's smart technology calculates ideal loads and routes for delivery vans using real-time traffic data, saving time, and fuel, and reducing carbon emissions.</p>
-                <a href="#">Learn more</a>  
+                <h1>The Sales Agents App</h1>
+                <p>Enable your sales team with the Field Agents Mobile App, allowing them to place orders, recommend products, and manage schemes on the move. Track their market visits, monitor time spent with each retailer, and boost overall business efficiency.</p>
+                <button (click)="open(contentAgent)">View more</button>  
 
             </div>
 
@@ -88,11 +137,10 @@
             <div class="col-12 col-md-3 phone-image">
                 <img src="assets/phone4.png">
             </div>
-            <div class="col-12 col-md-6 phone-desc">
-                <h6>OUR SERVICES</h6>
-                <h1>Sales aid App</h1>
-                <p>QWIPO empowers salespeople to place orders, suggest products, and oversee schemes anytime, anywhere.</p>
-                <a href="#">Learn more</a>  
+            <div class="col-12 col-md-6 phone-desc offset-desc">
+                <h1>The Smart Delivery App</h1>
+                <p>Optimize your delivery operations with real-time load calculations and routing adjustments based on traffic conditions. Our cutting-edge technology helps you save time, reduce fuel consumption, and minimize your carbon footprint. Delivery agents can also track payment settlements and returns, all within the same app.</p>
+                <button (click)="open(contentDelivery)">View more</button>  
 
             </div>
 
@@ -107,31 +155,30 @@
     <!-- Solution Section -->
 
 <div class="container solution-section">
-    <div class="row my-5 py-0 py-md-5 justify-content-center">
-        <div class="col-12 col-md-11 text-center">
-            <h6>Expert services</h6>
-            <h1>One Solution, Endless Benefits<br> Unleash the Power of Unlimited Potential!
-            </h1>
+    <div class="row mt-5 py-0 py-md-5 justify-content-center">
+        <div class="col-12 col-md-10 text-center">
+            <h1>One Platform, Endless Benefits</h1>
+            <p>Empower your business with a suite of innovative solutions designed to streamline operations, optimize financial management, and enhance customer satisfaction. Whether you need efficient logistics, flexible financing options, expansive marketplace integration, insightful data analytics, robust accounting software, or advanced CRM tools, the Qwipo Marketplace has it all.</p>
         </div>
     </div>
 </div>
 
 
-<div class="container solution-points mb-5 pb-md-5">
+<div class="container solution-points mb-5 pb-md-3">
     <div class="row">
         <div class="col-12 col-md-4">
             <div class="solution-wrap">
                 <img src="assets/solution1.png">
-                <h4>3PL</h4>
-                <p>By outsourcing logistics to a 3PL, vendors can focus on their business’s core competencies and strategic objectives, rather than getting bogged down in logistics operations.</p>
+                <h4>Third-Party Logistics (3PL)</h4>
+                <p>Leverage third-party logistics (3PL) for efficient, hassle-free delivery solutions that ensure timely and reliable delivery to your customers, freeing you to concentrate on growing your business.</p>
             </div>
         </div>
 
         <div class="col-12 col-md-4">
             <div class="solution-wrap">
                 <img src="assets/solution2.png">
-                <h4>BNPL</h4>
-                <p>By offering flexible payment options, we can convert more browsers into buyers, ultimately increasing sales.</p>
+                <h4>Buy Now, Pay Later (BNPL)</h4>
+                <p>Enhance purchasing power with the Buy Now, Pay Later (BNPL) option, allowing retailers to better manage cash flow while ensuring an uninterrupted supply of essential products.</p>
             </div>
         </div>
 
@@ -139,33 +186,125 @@
             <div class="solution-wrap">
                 <img src="assets/solution3.png">
                 <h4>Conquer Multiple Marketplaces</h4>
-                <p>Expand your visibility across multiple marketplaces and grow your customer base effortlessly with us.</p>
+                <p>Effortlessly expand your reach by accessing multiple marketplaces, widening your customer base, and driving revenue across diverse platforms.</p>
             </div>
         </div>
 
         <div class="col-12 col-md-4">
             <div class="solution-wrap">
                 <img src="assets/solution4.png">
-                <h4>Data Analytics</h4>
-                <p>Empower your decisions and drive growth with our robust data analytics tools for sales, inventory, and payments</p>
+                <h4>Data-Driven Insights</h4>
+                <p>Utilize advanced data analytics to gain actionable insights into market trends and customer buying patterns. Empower your business by making informed decisions that boost performance.</p>
             </div>
         </div>
 
         <div class="col-12 col-md-4">
             <div class="solution-wrap">
                 <img src="assets/solution5.png">
-                <h4>Accounting Software</h4>
-                <p>Automates tasks like invoicing, expense tracking, and reconciliation, saving time and reducing errors.</p>
+                <h4>Integrated Accounting</h4>
+                <p>Streamline your financial management with integrated accounting software. Qwipo simplifies bookkeeping, invoicing, and financial reporting to keep your business's finances in check.
+                    </p>
             </div>
         </div>
 
         <div class="col-12 col-md-4">
             <div class="solution-wrap">
                 <img src="assets/solution6.png">
-                <h4>CRM</h4>
-                <p>CRM streamlines operations for enhanced inventory management, superior customer service, and boosted sales.</p>
+                <h4>Customer Relationship Management (CRM)</h4>
+                <p>Boost customer satisfaction and retention with CRM tools designed to efficiently manage interactions and foster stronger, more personalized relationships with your clients.
+                    </p>
             </div>
         </div>
     </div>
 </div>
     <!-- Solution Section -->
+
+
+
+    <!-- Mobile app Popup -->
+     
+<ng-template #contentMobile let-modal>
+
+	<div class="modal-body mobile-popup">
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+        <h1>The Vendors Mobile App</h1>
+<p>As an SME or a microbusiness, you can manage distribution operations on the go with Qwipo’s Vendor Mobile App. Designed to let you manage operations from anywhere, anytime, the native Android and iOS app allows you to keep tabs on customer payments, sales, inventory, and product returns. Harness upselling and cross-selling opportunities, implement main and secondary pricing strategies and gain vital market intelligence for optimal pricing tactics. Finance your customers, schedule delivery vans, and maintain 24/7 customer engagement.</p>
+<h4>Vendors App Highlights</h4>
+<ul>
+    <li>Seamless Online Cataloging & Pricing Control</li>
+<li>Streamlined Order and Inventory Management</li>
+<li>Digital Payments & BNPL Lending</li>
+<li>Actionable Competitive Insights and Analytics</li>
+<li>Comprehensive Daily Business Reports</li>
+<li>Primary and Secondary Pricing Schemes</li>
+<li>Optimal Delivery Routing</li>
+<li>Rapid Payment Settlement</li>
+<li>24/7 Award-Winning Customer Support</li>
+</ul>
+	</div>
+
+</ng-template>
+    <!-- Mobile app popups -->
+
+
+
+
+
+    
+    <!-- Retaialers app Popup -->
+     
+<ng-template #contentRetailers let-modal>
+
+	<div class="modal-body mobile-popup">
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+        <h1>The Business Retailers Mobile App        </h1>
+<p>Connect seamlessly to QWIPO’s extensive marketplace of vendors and sellers via this native mobile app. Retailers can explore a vast array of products, benefit from AI-driven recommendations, execute digital payments, leverage diverse credit options, forecast demand, and operate their businesses more effectively and efficiently.
+</p>
+<h4>Retailers App Features</h4>
+<ul>
+    <li>Extensive Vendor/Seller Marketplace</li>
+        <li>  AI-Assisted Product Recommendations & Analytics</li>
+            <li> Demand Forecasting Tools</li>
+                <li> Integrated Customer Service Ticketing System</li>
+                    <li> Wide Selection of Products</li>
+                        <li> Secure Digital Payments</li>
+                            <li> Flexible Credit Lending Options</li>
+                                <li> Round-the-Clock Customer Support</li>
+        
+</ul>
+	</div>
+
+</ng-template>
+    <!-- Retaialers app popups -->
+
+
+
+
+     <!-- Agent app Popup -->
+     
+<ng-template #contentAgent let-modal>
+
+	<div class="modal-body mobile-popup">
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+        <h1>The Sales Agents App</h1>
+<p>Enable your sales team with the Field Agents Mobile App, allowing them to place orders, recommend products, and manage schemes on the move. Track their market visits, monitor time spent with each retailer, and boost overall business efficiency.</p>
+	</div>
+
+</ng-template>
+    <!-- Agent app popups -->
+
+
+
+     <!-- Delivery app Popup -->
+     
+<ng-template #contentDelivery let-modal>
+
+	<div class="modal-body mobile-popup">
+        <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+        <h1>The Smart Delivery App</h1>
+<p>Optimize your delivery operations with real-time load calculations and routing adjustments based on traffic conditions. Our cutting-edge technology helps you save time, reduce fuel consumption, and minimize your carbon footprint. Delivery agents can also track payment settlements and returns, all within the same app.
+</p>
+	</div>
+
+</ng-template>
+    <!-- Delivery app popups -->

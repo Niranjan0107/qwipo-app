@@ -16,6 +16,11 @@ p {
 }
 @media(min-width:768px)
 {
+
+    body .services-dialog .modal-dialog {
+        max-width: 60% !important;
+    }
+
     .challange-col .image-box {
         min-height: 285px;
     }
@@ -412,7 +417,7 @@ font-weight: 400;
         text-align: center;
     }
     body .phone-desc h1 {
-        font-size: 35px;
+        font-size: 32px !important;
     }
     button.navbar-toggler {
         filter: invert(1);
@@ -535,9 +540,10 @@ font-weight: 400;
     .image-box img {
         width: 56%;
     }
+    
 
     .application-section .phone-desc {
-        margin-bottom: 60px;
+        margin-bottom: 0px;
     }
     .application-section .phone-image {
         text-align: center;
@@ -848,10 +854,12 @@ body .inner-counter p {
         font-size: 20px !important;
         font-weight: 500 !important;
     }
-
-    body .big-image img {
-        margin-bottom: -65px;
+    body .why-section {
+        background-position: center !important;
+        background-size: contain !important;
     }
+
+   
 }
 
 .throught-image img {

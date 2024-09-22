@@ -41,8 +41,9 @@ h1.big {
 .solution-wrap h4 {
     letter-spacing: -0.02em;
     text-align: left;
-    margin-bottom: 25px;
+    margin-bottom: 18px;
     color: #060815;
+    font-size: 20px;
 }
 .solution-wrap img {
     max-height: 320px;
@@ -77,8 +78,22 @@ h1.big {
     z-index: -1;
 }
 
+
+
 @media(min-width:768px)
 {
+    body .modal-body  h1 {
+        font-size: 32px;
+    }
+    .offset-desc button {
+        max-width: 80%;
+        margin-left: auto;
+        width: 80%;
+        display: flex;
+    }
+    .modal-body {
+        padding: 30px;
+    }
     .big-image {
         margin-bottom: -135px;
     }
@@ -101,6 +116,10 @@ h1.big {
     .application-section .row {
         position: relative;
     }
+    
+.why-col .image-box p {
+    min-height: 165px;
+}
     .application-section .row:after {
         content: "";
         background-image: url(https://adventz.radiantthemes.com/wp-content/uploads/2022/06/demo-twelve-section-five-bg.png);
@@ -132,3 +151,60 @@ display: none;
 
 
 
+.phone-desc button {
+    color: #ed8058;
+    cursor: pointer;
+    background: none;
+    border: 0;
+    padding: 0;
+}
+
+.modal-body ul {
+    padding-left: 18px;
+}
+
+.why-col .image-box img {
+  margin-bottom: 20px;
+  max-width: 100px;
+}
+
+@media(max-width:767px)
+{
+    .modal-body  h1 {
+        font-size: 25px;
+    }
+    body .phone-desc h1 {
+        font-size: 35px !important;
+    }
+
+}
+
+
+
+.why-section {
+    background-image: url(https://adventz.radiantthemes.com/wp-content/uploads/2022/06/demo-twelve-section-five-bg.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: cover;
+}
+
+.why-col .image-box {
+    border-style: solid;
+    border-width: 2px;
+    border-color: #f4f4f4;
+    padding: 20px;
+    transition: all .4s cubic-bezier(.2, 0, .3, 1) !important;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 55px 7px rgba(8.00000000000001, 45.00000000000004, 117, .06);
+    transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+    cursor: pointer;
+}
+
+.why-col .image-box  h4 {
+    min-height: 65px;
+}
+
+.why-col .image-box p {
+    margin-bottom: 0;
+}
