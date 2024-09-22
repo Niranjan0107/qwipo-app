@@ -707,10 +707,6 @@ ngb-offcanvas-panel.offcanvas.offcanvas-end.show li {
 }
 
 
-ngb-offcanvas-panel.offcanvas.offcanvas-end.show {
-    background-color: #ffdbd0;
-    width: 100%;
-}
 
 
 
@@ -849,6 +845,13 @@ body .inner-counter p {
         font-size: 30px;
         font-weight: 500;
     }
+
+    body ngb-offcanvas-panel.offcanvas.offcanvas-end.show {
+        background-color: #ffdbd0 !important;
+        width: 35% !important;
+    }
+    
+
     body ngb-offcanvas-panel.offcanvas.offcanvas-end.show li a
     {
         font-size: 20px !important;
