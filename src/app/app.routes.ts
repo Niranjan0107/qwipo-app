@@ -6,6 +6,7 @@ import { ContactUsComponent } from './pages/contact-us/contact-us.component';
 import { PartnersComponent } from './pages/partners/partners.component';
 import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { BlogsComponent } from './pages/blogs/blogs.component';
+import { SinglePostComponent } from './otherComponents/single-post/single-post.component';
 
 export const routes: Routes = [
 
@@ -16,6 +17,7 @@ export const routes: Routes = [
     { path: 'contact-us', component: ContactUsComponent },
     { path: 'partners', component: PartnersComponent },
     { path: 'blog', component: BlogsComponent },
+    { path: 'single-post', component: SinglePostComponent },
 
 ];
 

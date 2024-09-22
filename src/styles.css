@@ -139,7 +139,6 @@ p {
         max-width: 100%;
         margin-left: auto;
         margin-right: auto;
-        margin-top: 100px;
     }
     body .brand-col:first-child img {
         max-width: 97px !important;
@@ -248,9 +247,7 @@ font-weight: 400;
 
 /* empower setion starts */
 
-.brand-section {
-    background-color: #fffcfa;
-}
+
 
 .brand-col img {
     max-height: 45px;
@@ -910,7 +907,7 @@ body .testionials-popup button.btn-close {
     filter: invert(1) !important;
 }
 
-button.primary-btn {
+button.primary-btn, .primary-btn {
     background: none;
     border: 0;
     font-size: 18px;
@@ -921,6 +918,12 @@ button.primary-btn {
     border-radius: 10px;
     font-weight: 600;
 }
+
+a.primary-btn
+{
+    color: #444;
+    text-decoration: none;
+} 
 
 .swiper-horizontal, .swiper {
     touch-action: pan-y;

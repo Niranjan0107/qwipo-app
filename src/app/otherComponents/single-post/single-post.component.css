@@ -1,0 +1,35 @@
+h5
+{
+    font-size: 12px;
+    font-family: Outfit;
+    font-weight: 400;
+}
+
+h1
+{
+    margin-bottom: 0;
+}
+
+h5 span
+{
+    margin: 0 8px;
+}
+
+.featured-image {
+    margin-top: 25px;
+}
+
+.featured-image img {
+    width: 100%;
+}
+
+
+
+@media(min-width: 768px) 
+{
+
+h5
+{
+    margin-bottom: -8px;
+}
+}

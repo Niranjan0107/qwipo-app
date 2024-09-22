@@ -12,6 +12,8 @@ import { AboutUsComponent } from './pages/about-us/about-us.component';
 import { HomepageComponent } from './pages/homepage/homepage.component';
 import { CommonModule } from '@angular/common'; 
 import { register } from 'swiper/element/bundle';
+import { SidebarComponent } from './otherComponents/sidebar/sidebar.component';
+import { SinglePostComponent } from './otherComponents/single-post/single-post.component';
 
 register();
 
@@ -19,7 +21,7 @@ register();
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, CommonModule, FooterComponent, HeaderComponent, HeaderComponent, UsersThoughtsComponent, BrandsComponent, MainSliderComponent, AboutUsComponent, HomepageComponent],
+  imports: [RouterOutlet, SinglePostComponent, SidebarComponent, CommonModule, FooterComponent, HeaderComponent, HeaderComponent, UsersThoughtsComponent, BrandsComponent, MainSliderComponent, AboutUsComponent, HomepageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

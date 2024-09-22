@@ -1,0 +1,135 @@
+
+
+.blog-wrap p {
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 0;
+}
+.blog-meta {
+    padding-bottom: 20px;
+}
+.blog-wrap p {
+    color: #6b6b6b;
+    font-size: 17px !important;
+}
+.blog-wrap a {
+    padding: 12px 25px 12px 25px;
+    border-radius: 100px;
+    background-color: #1D2856;
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.blog-wrap h4 {
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.blog-widget-post a {
+    font-size: 18px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
+.blog-widget-post {
+    margin-bottom: 16px;
+}
+img.wp-post-image {
+    object-fit: cover;
+}
+p.excerpt {
+    margin-bottom: 0;
+    font-size: 15px;
+}
+.blog-widget-post {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.sidebar-inner ul li a {
+    color: #000;
+    text-decoration: none;
+}
+.sidebar-inner ul li a:hover {
+    font-weight: 600;
+}
+.sidebar-inner ul li {
+    margin-bottom: 9px;
+}
+.sidebar-inner ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+.blog-wrap img {
+    object-fit: cover;
+    min-height: 241px;
+    max-height: 241px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5px;
+ 
+
+}
+.post-meta {
+    padding-right: 20px;
+    padding-left: 0;
+    position: relative;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+    color: #6b6b6b;
+    margin-top: 10px;
+}
+
+@media(min-width:768px)
+{
+
+    .sidebar:before {
+        content: "";
+        border-left: 1px solid #bdbcbc;
+        position: absolute;
+        left: 7px;
+        height: 100%;
+    }
+    
+    .sidebar {
+        padding-left: 30px;
+        position: relative;
+    }
+
+    .blog-wrap h4 {
+        overflow: hidden;
+        width: 100%;
+        height: 60px;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+    .blog-wrap p{
+        min-height: 75px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        width: 100%;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 3;
+    }
+    .blog-points {
+        max-width: 90% !important;
+    }
+    /* .col-blog:nth-child(5), .col-blog:nth-child(10), .col-blog:nth-child(15), .col-blog:nth-child(20) {
+        max-width: 50%;
+    } */
+    
+    .col-blog {
+        max-width: 25%;
+    }
+}
