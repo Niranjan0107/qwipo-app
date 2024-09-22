@@ -839,6 +839,12 @@ body .inner-counter p {
 } */
 
 
+.services-dialog .modal-content {
+ 
+    background-color: #ffcebf;
+    box-shadow: 0 20px 55px 7px #4d4c4c;
+}
+
 @media(max-width:767px)
 {
     body .empower-section1 h1.big {
