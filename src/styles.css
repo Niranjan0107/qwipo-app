@@ -14,8 +14,17 @@ p {
 
     color: #6b6b6b;
 }
+
+.bg-info {
+    background-color: rgb(255 238 208) !important;
+}
+
 @media(min-width:768px)
 {
+
+    body ngb-offcanvas-panel.offcanvas.offcanvas-end.show {
+        width: 35% !important;
+    }
 
     body .services-dialog .modal-dialog {
         max-width: 60% !important;
@@ -852,10 +861,7 @@ body .inner-counter p {
         font-weight: 500;
     }
 
-    body ngb-offcanvas-panel.offcanvas.offcanvas-end.show {
-        background-color: #ffdbd0 !important;
-        width: 35% !important;
-    }
+   
     
 
     body ngb-offcanvas-panel.offcanvas.offcanvas-end.show li a
