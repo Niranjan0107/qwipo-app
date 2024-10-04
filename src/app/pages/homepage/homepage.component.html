@@ -8,60 +8,80 @@
 <div class="empower-section">
   <div class="container pb-md-5">
     <div class="row justify-content-center pb-5 align-items-center">
-      <div class="col-12 col-md-9 col-lg-10 border-top-1 pt-md-5 text-center mb-5">
-        <h1 class="pt-5 pb-3 ">
-          Defending and Growing Your Market Share
-        </h1>
-        <p>As a traditional large or small business enterprise, are you facing increased competition from digital direct-to-retailer mega platforms? These tech-savvy giants utilize sophisticated algorithms, extensive logistics networks, and immense data analytics capabilities to offer convenience, competitive pricing, and a vast product selection to retailers. With an increasing number of your customers ordering their supplies digitally, how are you adapting to protect and strengthen your market position?</p>
-      
+      <div
+        class="col-12 col-md-9 col-lg-10 border-top-1 pt-md-5 text-center mb-5"
+      >
+        <h1 class="pt-5 pb-3">Defending and Growing Your Market Share</h1>
+        <p>
+          These tech giants use advanced technology, logistics, and data
+          analytics to offer retailers convenience, competitive pricing, and a
+          diverse range of products. With more customers shifting to digital
+          ordering, how are you adapting to protect and expand your market
+          position?
+        </p>
       </div>
 
       <div class="col-12 col-md-6">
         <img src="assets/main_img.png" class="img-responsive my-4" />
-
       </div>
 
       <div class="col-12 col-md-5 about-desc">
-        <h3 class="mb-3">
-          Outsmarting Mega Platforms
-        </h3>
+        <h3 class="mb-3">Outsmarting Mega Platforms</h3>
         <p>
-          To stay competitive, it's crucial to innovate, digitize, and make your products accessible to buyers around the clock—24/7, 365 days a year. QWIPO  places your brand and products within a few clicks or finger-taps of thousands of business retailers across India, so you can focus on growing your sales just as we take care of everything else: from product placement and promotion to inventory and warehouse management, order processing, fulfillment, returns, customer support, and everything else that you need to protect your turf and penetrate new markets.
-          </p>
-          <button routerLink="#" class="primary-btn">Get Started</button>
+          Stay competitive by innovating, digitizing, and making products
+          accessible 24/7. QWIPO connects your brand with thousands of retailers
+          across India.<br />
+          We handle:
+        </p>
+        <ul>
+          <li>Product placement and promotion</li>
+          <li>Inventory and warehouse management</li>
+          <li>Order processing and fulfillment</li>
+          <li>Returns and customer support</li>
+        </ul>
+        <p>
+          Focus on growing sales while we manage the operational tasks. Protect
+          your market and expand into new territories with QWIPO.
+        </p>
       </div>
     </div>
   </div>
 </div>
 
 <div class="counter-section section">
-    <div class="container">
-  <div class="row justify-content-center py-md-5 speciality">
-    <div class="col-12 col-sm-3">
-      <div class="inner-counter">
-        <img src="assets/users.png" />
-        <h1>20K +</h1>
-        <p>Buyers and <br class="d-none md-block"> sellers</p>
+  <div class="container">
+    <div class="row justify-content-center py-md-5 speciality">
+      <div class="col-12 col-sm-3">
+        <div class="inner-counter">
+          <img src="assets/users.png" />
+          <h1>20K +</h1>
+          <p>
+            Buyers and <br class="d-none md-block" />
+            sellers
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="col-12 col-sm-4 border-lr">
-      <div class="inner-counter">
-        <img src="assets/branding.png" />
-        <h1>100 +</h1>
-        <p>No. of <br class="d-none md-block"> brands</p>
+      <div class="col-12 col-sm-4 border-lr">
+        <div class="inner-counter">
+          <img src="assets/branding.png" />
+          <h1>100 +</h1>
+          <p>
+            No. of <br class="d-none md-block" />
+            brands
+          </p>
+        </div>
       </div>
-    </div>
 
-    <div class="col-12 col-sm-3">
-      <div class="inner-counter">
-        <img src="assets/product.png" />
-        <h1>40K +</h1>
-        <p>No. of <br class="d-none md-block">products</p>
+      <div class="col-12 col-sm-3">
+        <div class="inner-counter">
+          <img src="assets/product.png" />
+          <h1>40K +</h1>
+          <p>No. of <br class="d-none md-block" />products</p>
+        </div>
       </div>
     </div>
   </div>
-</div>
 </div>
 <!-- Empower section ends -->
 
@@ -153,21 +173,13 @@
   </div>
 </div> -->
 
-
-
-
 <div class="need-section mb-5 py-md-5">
   <div class="text-center pb-md-5">
-    <h6>Get Started</h6>
-    <h1>Transforms Your Business with Unmatched Benefits
-    </h1>
+    <h1>Transform Your Business with Unmatched Benefits    </h1>
   </div>
 
   <div class="container my-5">
     <div class="row align-items-start need-row justify-content-center">
-   
-
-
       <div class="col-12 col-sm-3" *ngFor="let item of items; let i = index">
         <div class="need-col mb-3">
           <h3>{{ item.title }}</h3>
@@ -175,24 +187,23 @@
             <div class="separator-dash"></div>
           </div>
           <div class="need-image">
-          <img [src]="item.image" class="img-responsive" />
-        </div>
+            <img [src]="item.image" class="img-responsive" />
+          </div>
           <p>
             <small>
-              <span [innerHTML]="item.isExpanded ? item.longDescription : item.shortDescription"></span>
-            </small>       
+              <span
+                [innerHTML]="
+                  item.isExpanded ? item.longDescription : item.shortDescription
+                "
+              ></span>
+            </small>
             <button (click)="toggleReadMore(i)">
-              {{ item.isExpanded ? 'Read Less' : 'Read More' }}
+              {{ item.isExpanded ? "Read Less" : "Read More" }}
             </button>
           </p>
-    
         </div>
       </div>
-
-
     </div>
-
-
   </div>
 </div>
 
@@ -202,29 +213,30 @@
 <app-users-thoughts></app-users-thoughts>
 <!-- Testimonials section ends -->
 
-
-
 <div class="message-section py-5 mb-5">
   <div class="container py-md-5">
     <div class="row text-center">
       <div class="col-12">
         <h1>Digitize Your Business Operations and Unleash Growth</h1>
-<p>Unlock unparalleled efficiency and growth with Qwipo's cutting-edge solutions. Are you ready to transform your business?</p>
-<button routerLink="#" class="primary-btn mt-3"> Join Qwipo Today!</button>
-
+        <p>
+          Unlock unparalleled efficiency and growth with Qwipo's cutting-edge
+          solutions. Are you ready to transform your business?
+        </p>
+        <button routerLink="#" class="primary-btn mt-3">
+          Join Qwipo Today!
+        </button>
       </div>
     </div>
   </div>
 </div>
 
-
 <div class="upper-footer mt-md-5">
   <div class="upper-footer-inner media-images">
-      <h1 class="mb-5 mt-3">Media Showcase</h1>
-      <ul>
-          <li><img src="assets/showcase1.png"></li>
-          <li><img src="assets/showcase2.png"></li>
-          <li><img src="assets/showcase3.png"></li>
-      </ul>
+    <h1 class="mb-5 mt-3">Media Showcase</h1>
+    <ul>
+      <li><a href="https://telanganatoday.com/qwipo-set-to-disrupt-indian-retail-digitally" target="_blank"><img src="assets/showcase1.png" /></a></li>
+      <li><a href="https://yourstory.com/2022/01/product-roadmap-b2bmarketplace-qwipo-technology-retailers-startup-logistics" target="_blank"><img src="assets/showcase2.png" /></a></li>
+      <li><a href="https://www.foodtechbiz.com/opinion/kirana-stores-adopt-digitalization-to-solve-food-supply-chain-challenges" target="_blank"><img src="assets/showcase3.png" /></a></li>
+    </ul>
   </div>
 </div>

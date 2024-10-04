@@ -21,6 +21,10 @@ p {
 
 @media(min-width:768px)
 {
+    .navbar-expand-lg .offcanvas .offcanvas-body {
+     
+        justify-content: end;
+    }
 
     body ngb-offcanvas-panel.offcanvas.offcanvas-end.show {
         width: 35% !important;
@@ -270,7 +274,7 @@ font-weight: 400;
     width: 97% !important;
 }
 .brand-col .inner-brand {
-    box-shadow: 0 6px 15px 4px rgb(255 206 191 / 52%);
+    /* box-shadow: 0 6px 15px 4px rgb(255 206 191 / 52%); */
     background-color: #fff;
     border-radius: 13px;
     padding: 20px;
@@ -931,17 +935,23 @@ body .testionials-popup button.btn-close {
 }
 
 button.primary-btn, .primary-btn {
-    background: none;
-    border: 0;
     font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0;
+    color: #fff;
+    font-weight: 400;
+    padding: 16px 35px;
+    border: none;
+    background: #242879;
+    border-radius: 50px;
+    text-transform: capitalize;
+    transition: all .3s ease-in-out !important;
+    -webkit-transition: all .3s ease-in-out;
     text-align: center;
-    display: inline-block;
-    background-color: #ffd5c7;
-    padding: 12px 25px;
-    border-radius: 10px;
-    font-weight: 600;
 }
-
+.contact-form-title small {
+    color: #524f4f;
+}
 a.primary-btn
 {
     color: #444;
@@ -951,4 +961,21 @@ a.primary-btn
 .swiper-horizontal, .swiper {
     touch-action: pan-y;
     padding: 0px 10px !important;
+}
+
+
+.home-title ul
+{
+    padding-left: 0;
+    margin-left: 19px;
+    margin-bottom: 0;
+}
+.home-title ul li, .about-desc ul li {
+    color: #6b6b6b;
+    font-size: 17px;
+}
+
+.about-desc ul {
+    padding-left: 0;
+    margin-left: 19px;
 }

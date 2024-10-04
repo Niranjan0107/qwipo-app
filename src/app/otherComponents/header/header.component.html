@@ -82,7 +82,7 @@
             </ul>
           </div>
         </div>
-        <div class="desktop-toggle">
+        <div class="desktop-toggle d-none">
             <ul class="navbar-nav">
                 <li class="consult">
                     <a href="/contact-us" class="header-link">
@@ -92,7 +92,7 @@
             </ul>
         </div>
 
-        <ng-template #contentSidebar let-offcanvas class="pc-sidebar">
+        <ng-template #contentSidebar let-offcanvas class="pc-sidebar d-none">
           <div class="offcanvas-header">
             <button
               type="button"
@@ -180,7 +180,7 @@
             </div>
           </div>
         </ng-template>
-        <div class="ham-btn">
+        <div class="ham-btn d-none">
          <img src="assets/ham.png"   (click)="openSidebar(contentSidebar)">
         </div>
       </div>
