@@ -29,10 +29,33 @@
     </div> 
 
     <div class="col-12 col-md-12 apply-btn text-right">
+     <!-- <a href="#" (click)="open(contentDelivery)">Apply Now</a> -->
      <a href="#">Apply Now</a>
+
     </div> 
  </div>
 <!-- Repetable Row -->
 
 </div>
   <!-- Open positions starts -->
+
+
+
+   <!-- Job Apply popup -->
+     
+   <ng-template #contentDelivery let-modal>
+
+    <div class="modal-body mobile-popup">
+          <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+          <h3>The Smart Delivery App</h3>
+  <ul>
+      <li>Track payments  </li>
+      <li>Manage returns seamlessly </li>
+      <li> Optimize fuel consumption </li>
+      <li> Minimize your carbon footprint
+          </li>
+  </ul>
+    </div>
+  
+  </ng-template>
+      <!-- Job Apply popup -->

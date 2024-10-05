@@ -1,8 +1,8 @@
 .thought-wrap {
     background-image: url(../../../../../assets/quote.png);
-    background-position: top right;
+    background-position: top center;
     background-repeat: no-repeat;
-    background-size: 25% auto;
+    background-size: 14% auto;
 }
 
 .thoughts-slider p {
@@ -35,9 +35,9 @@
 
 .single-video img {
     width: 94%;
-    height: 265px;
+    height: 285px;
     object-fit: cover;
-    box-shadow: 0 20px 55px 7px rgb(255 206 191);
+    /* box-shadow: 0 20px 55px 7px rgb(255 206 191); */
     border-radius: 13px;
     cursor: pointer;
     transform: translateY(0px);
@@ -46,8 +46,8 @@ transition: .3s ease-in;
 }
 .single-video img:hover {
 
-    box-shadow:0 20px 55px 7px rgb(255 252 250);
-    transform: translateY(-20px);
+    /* box-shadow:0 20px 55px 7px rgb(255 252 250); */
+    /* transform: translateY(-20px); */
     transition: .3s ease-in;
 
 }
@@ -79,8 +79,7 @@ transition: .3s ease-in;
     }
     .testionials-section .carousel-indicators {
         margin-bottom: 14px !important;
-        margin-right: auto;
-        justify-content: flex-end;
+        margin-right: 100px;
     }
 
     .modal-body iframe

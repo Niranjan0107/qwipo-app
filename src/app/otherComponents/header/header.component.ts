@@ -1,4 +1,4 @@
-import { Component, TemplateRef, inject } from '@angular/core';
+import { Component, TemplateRef, inject, HostListener, OnInit  } from '@angular/core';
 import { NgbOffcanvas, NgbOffcanvasConfig, OffcanvasDismissReasons } from '@ng-bootstrap/ng-bootstrap';
 import { RouterOutlet } from '@angular/router';
 
@@ -12,7 +12,7 @@ import { RouterOutlet } from '@angular/router';
   providers: [NgbOffcanvasConfig, NgbOffcanvas],
 
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit{
   constructor(
 		config: NgbOffcanvasConfig,
 		private offcanvasService: NgbOffcanvas,
@@ -30,4 +30,20 @@ export class HeaderComponent {
 	openSidebar(contentSidebar: TemplateRef<any>) {
 		this.offcanvasService.open(contentSidebar);
 	}
+
+
+
+	// sticky header
+
+	  isSticky: boolean = false;
+
+
+
+  ngOnInit(): void {}
+
+  @HostListener('window:scroll', [])
+  onWindowScroll() {
+    const scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    this.isSticky = scrollPosition >= 100;
+  }
 }

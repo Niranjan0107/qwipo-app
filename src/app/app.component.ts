@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { RouterOutlet } from '@angular/router';
 import { Router } from '@angular/router';
@@ -20,8 +19,9 @@ register();
 
 @Component({
   selector: 'app-root',
+  
   standalone: true,
-  imports: [RouterOutlet, SinglePostComponent, SidebarComponent, CommonModule, FooterComponent, HeaderComponent, HeaderComponent, UsersThoughtsComponent, BrandsComponent, MainSliderComponent, AboutUsComponent, HomepageComponent],
+  imports: [RouterOutlet, HeaderComponent, SinglePostComponent, SidebarComponent, CommonModule, FooterComponent, HeaderComponent, HeaderComponent, UsersThoughtsComponent, BrandsComponent, MainSliderComponent, AboutUsComponent, HomepageComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })

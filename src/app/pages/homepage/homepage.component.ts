@@ -17,56 +17,54 @@ export class HomepageComponent {
   items = [
     {
       title: "Enhanced Market Presence",
-      image: "assets/market.png",
-      longDescription: `Joining the Qwipo Marketplace grants SME suppliers, agri producers, and manufacturers unparalleled visibility, connecting them directly with a wider network of retailers actively seeking new products. This widespread market presence opens up new business opportunities, expands brand recognition, and drives growth by attracting a consistent stream of potential customers.`,
-      shortDescription: `Joining the Qwipo Marketplace grants SME suppliers, agri producers, and manufacturers unparalleled visibility, connecting them directly..`,
-      isExpanded: false
+      image: "assets/f1.png",
+      longDescription: `Gain visibility and connect directly with retailers, expanding brand recognition and driving growth.`,
     },
     {
       title: "Payment Transparency and Security",
-      image: "assets/payment.png",
-      longDescription: `With Qwipo's transparent payment system, you can enjoy the peace of mind that comes from knowing exactly when and how you will be paid. The platform ensures clear, timely, and secure transactions, allowing businesses to manage their finances efficiently and focus on scaling rather than chasing payments.`,
-      shortDescription: `With Qwipo's transparent payment system, you can enjoy the peace of mind that comes from knowing exactly when and how you will be..`,
-      isExpanded: false
+      image: "assets/f2.png",
+      longDescription: `Enjoy clear, timely, and secure transactions, enabling better financial management.`,
     },
     {
       title: "Seamless Logistics Solutions",
-      image: "assets/logis.png",
-      longDescription: `Experience the ease of comprehensive logistics services, either through our direct channels or partnered logistics providers on the platform. The platform facilitates smooth and efficient delivery processes, reducing the burden of shipment coordination and enabling you to focus on core business activities while ensuring your products reach their destinations reliably.`,
-      shortDescription: `Experience the ease of comprehensive logistics services, either through our direct channels or partnered logistics providers on the platform.. `,
-      isExpanded: false
+      image: "assets/f3.png",
+      longDescription: `Rely on efficient logistics services for hassle-free delivery, reducing shipment coordination efforts.`,
+  
     },
     {
       title: "Around-the-Clock Support",
-      image: "assets/24-hours.png",
-      longDescription: `Qwipo’s 24/7 Customer Support is always on hand to continuously assist and rapidly resolve any issues that you might face. This dedication ensures that your operations run smoothly and any challenges are addressed promptly, keeping your business moving forward without interruptions.`,
-      shortDescription: `Qwipo’s 24/7 Customer Support is always on hand to continuously assist and rapidly resolve any issues that you might face. This dedication ensures..`,
-      isExpanded: false
+      image: "assets/f4.png",
+      longDescription: `24/7 customer support ensures smooth operations and prompt issue resolution.`,
+
     },
     {
       title: "Efficient Business Management",
-      image: "assets/business.png",
-      longDescription: `Digitally streamlined operations allow traditional businesses to consolidate various processes under one unified platform. From inventory management to accounting to order tracking, the platform simplifies your day-to-day business activities, optimizing efficiency and reducing the administrative burden, thus saving you time and resources.`,
-      shortDescription: `Digitally streamlined operations allow traditional businesses to consolidate various processes under one unified platform. From inventory..`,
-      isExpanded: false
+      image: "assets/f5.png",
+      longDescription: `Streamline operations through a unified inventory, accounting, and order tracking platform.`,
+
     },
     {
       title: "Flexible Financing Solutions",
-      image: "assets/budgeting.png",
-      longDescription: `Benefit from Qwipo’s network of credit and working capital financing partners to maintain an uninterrupted distribution system. These flexible financial solutions help suppliers manage cash flow effectively, ensuring they can meet demand without financial strain and continue operating smoothly even during peak demand periods.`,
-      shortDescription: `Benefit from Qwipo’s network of credit and working capital financing partners to maintain an uninterrupted distribution system. These flexible..`,
-      isExpanded: false
+      image: "assets/f6.png",
+      longDescription: `Access credit and financing partners to manage cash flow and meet demand effortlessly.`,
+
     },
+    // {
+    //   title: `Integrated Mobile Applications`,
+    //   image: "assets/mobile-app.png",
+    //   longDescription: `Qwipo’s native web and mobile apps are optimized for vendors to streamline and grow their business, complemented by an integrated suite of smart mobile apps; for your sales agents to track orders and payments, delivery people to manage fulfillment, and for your customers—business retailers—to order their merchandise. These apps ensure that every facet of your business is always at your fingertips.`,
+    //   shortDescription: `Qwipo’s native web and mobile apps are optimized for vendors to streamline and grow their business, complemented by an integrated..`,
+    //   isExpanded: false
+    // },
     {
-      title: `Integrated Mobile Applications`,
-      image: "assets/mobile-app.png",
-      longDescription: `Qwipo’s native web and mobile apps are optimized for vendors to streamline and grow their business, complemented by an integrated suite of smart mobile apps; for your sales agents to track orders and payments, delivery people to manage fulfillment, and for your customers—business retailers—to order their merchandise. These apps ensure that every facet of your business is always at your fingertips.`,
-      shortDescription: `Qwipo’s native web and mobile apps are optimized for vendors to streamline and grow their business, complemented by an integrated..`,
-      isExpanded: false
+      title: `Integrated Mobile Apps`,
+      image: "assets/f7.png",
+      longDescription: `Optimize operations with mobile apps for sales tracking, fulfillment management, and customer orders.`,
+
     }
   ];
 
-  toggleReadMore(index: number): void {
-    this.items[index].isExpanded = !this.items[index].isExpanded;
-  }
+  // toggleReadMore(index: number): void {
+  //   this.items[index].isExpanded = !this.items[index].isExpanded;
+  // }
 }

@@ -57,3 +57,18 @@ ul.navbar-nav .consult
     width: 25px;
     cursor: pointer;
 }
+
+.main-header {
+    position: relative;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    
+  }
+  
+  .main-header.sticky {
+    position: fixed;
+    background-color: #feede8;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    top: 0;
+  }

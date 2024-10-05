@@ -165,7 +165,7 @@ p {
 
     /* need section */
     .need-col {
-        min-height: 400px;
+        min-height: 375px;
         display: flex;
         flex-direction: column;
         margin-bottom: 25px !important;
@@ -237,7 +237,6 @@ p {
 .testionials-section .carousel-indicators {
     margin-bottom: 14px !important;
     margin-right: auto;
-    justify-content: flex-end;
 }
 
 /* Global css starts*/
@@ -622,7 +621,6 @@ body .inner-counter img{
     }
     body .testionials-section .carousel-indicators {
         bottom: -55px;
-        justify-content: center;
         margin: 0 auto !important;
     }
     body .footer-menu ul
@@ -891,6 +889,10 @@ body .inner-counter p {
 
 @media screen and (min-width: 1601px) {
 
+
+    .need-col {
+        min-height: 370px;
+    }
     .challange-col .image-box {
         min-height: 285px;
     }
@@ -938,10 +940,11 @@ button.primary-btn, .primary-btn {
     font-size: 18px;
     line-height: 24px;
     letter-spacing: 0;
-    color: #fff;
+    color: #fff !important;
     font-weight: 400;
     padding: 16px 35px;
     border: none;
+    display: inline-block;
     background: #242879;
     border-radius: 50px;
     text-transform: capitalize;
@@ -978,4 +981,15 @@ a.primary-btn
 .about-desc ul {
     padding-left: 0;
     margin-left: 19px;
+}
+
+.message-section {
+    background-image: url(../src/assets/bg-overlay.png);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #faede9;
+    width: 97%;
+    border-radius: 50px;
+    margin: 0 auto;
 }

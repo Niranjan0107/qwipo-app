@@ -2,7 +2,11 @@
     background-color: #2a2e37;
     color: #fff;
 }
-
+.social-wrap img {
+    width: 28px;
+    object-fit: contain;
+    height: auto;
+}
 .bottom-footer
 {
     border-top: 1px solid #fff;
@@ -55,7 +59,7 @@
 }
 
 .copyright p {
-    color: #878181;
+    color: #fff;
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
@@ -73,7 +77,7 @@
     filter: brightness(100);
 }
 .chat h4 {
-    color: #8f8f8f;
+    color: #fff;
 }
 .chat h1 {
     color: #bb77ff;
@@ -85,13 +89,15 @@
 }
 
 .contact small {
-    color: #878181;
-    font-size: 20px;
+    color: #fff;
+    font-size: 18px;
     font-weight: 400;
     line-height: 31px;
     letter-spacing: -.64px;
 }
-
+.contact h3 {
+    font-weight: 400;
+}
 @media(min-width:768px)
 {
     .copyright p {
@@ -109,9 +115,9 @@
         display: block;
     }
 
-    .footer-menu ul {
-        display: grid;
-        grid-template-columns: auto auto;
+    .footer-menu {
+        display: flex;
+        column-gap: 42px;
     }
 }
 

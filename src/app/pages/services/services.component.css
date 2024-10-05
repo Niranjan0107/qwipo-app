@@ -43,7 +43,6 @@ h1.big {
     text-align: left;
     margin-bottom: 18px;
     color: #060815;
-    font-size: 20px;
 }
 .solution-wrap img {
     max-height: 320px;
@@ -117,9 +116,7 @@ h1.big {
         position: relative;
     }
     
-.why-col .image-box p {
-    min-height: 165px;
-}
+
     .application-section .row:after {
         content: "";
         background-image: url(https://adventz.radiantthemes.com/wp-content/uploads/2022/06/demo-twelve-section-five-bg.png);
@@ -209,10 +206,53 @@ display: none;
     cursor: pointer;
 }
 
-.why-col .image-box  h4 {
-    min-height: 65px;
-}
 
 .why-col .image-box p {
     margin-bottom: 0;
 }
+
+@media(min-width:1301px)
+{
+    .why-col .image-box p {
+        min-height: 165px;
+    }
+    .why-col .image-box  h4 {
+        min-height: 65px;
+    }
+    .solution-wrap h4 {
+ 
+        font-size: 20px;
+    }
+    .solution-wrap p {
+  
+        font-size: 17px;
+        line-height: 26px;
+    }
+}
+@media(min-width:992px) and (max-width:1300px)
+{
+   
+    .why-col .image-box p {
+        min-height: 190px;
+        font-size: 15px;
+}
+.why-col .image-box  h4 {
+    min-height: 48px;
+}
+.solution-wrap h4 {
+ 
+    font-size: 18px;
+    min-height: 45px;
+}
+.solution-wrap p {
+  
+    font-size: 16px;
+    line-height: 24px;
+}
+.why-section h4 {
+    font-size: 17px;
+   
+}
+}
+
+

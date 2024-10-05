@@ -34,7 +34,7 @@
           We handle:
         </p>
         <ul>
-          <li>Product placement and promotion</li>
+          <li>Product positioning and marketing          </li>
           <li>Inventory and warehouse management</li>
           <li>Order processing and fulfillment</li>
           <li>Returns and customer support</li>
@@ -190,7 +190,7 @@
             <img [src]="item.image" class="img-responsive" />
           </div>
           <p>
-            <small>
+            <!-- <small>
               <span
                 [innerHTML]="
                   item.isExpanded ? item.longDescription : item.shortDescription
@@ -199,12 +199,25 @@
             </small>
             <button (click)="toggleReadMore(i)">
               {{ item.isExpanded ? "Read Less" : "Read More" }}
-            </button>
+            </button> -->
+
+
+            <span
+            [innerHTML]="
+               item.longDescription
+            "
+          ></span>
           </p>
         </div>
       </div>
+      <div class="col-12 text-center">
+        <a href="/contact-us" class="primary-btn mt-3">
+          Join Qwipo Today!
+        </a>
+      </div>
     </div>
   </div>
+  
 </div>
 
 <!-- Need section ends-->
@@ -222,9 +235,9 @@
           Unlock unparalleled efficiency and growth with Qwipo's cutting-edge
           solutions. Are you ready to transform your business?
         </p>
-        <button routerLink="#" class="primary-btn mt-3">
+        <a href="/contact-us" class="primary-btn mt-3">
           Join Qwipo Today!
-        </button>
+        </a>
       </div>
     </div>
   </div>
@@ -233,10 +246,9 @@
 <div class="upper-footer mt-md-5">
   <div class="upper-footer-inner media-images">
     <h1 class="mb-5 mt-3">Media Showcase</h1>
-    <ul>
-      <li><a href="https://telanganatoday.com/qwipo-set-to-disrupt-indian-retail-digitally" target="_blank"><img src="assets/showcase1.png" /></a></li>
-      <li><a href="https://yourstory.com/2022/01/product-roadmap-b2bmarketplace-qwipo-technology-retailers-startup-logistics" target="_blank"><img src="assets/showcase2.png" /></a></li>
+    <ul> <li><a href="https://yourstory.com/2022/01/product-roadmap-b2bmarketplace-qwipo-technology-retailers-startup-logistics" target="_blank"><img src="assets/showcase2.png" /></a></li>
       <li><a href="https://www.foodtechbiz.com/opinion/kirana-stores-adopt-digitalization-to-solve-food-supply-chain-challenges" target="_blank"><img src="assets/showcase3.png" /></a></li>
+      <li><a href="https://telanganatoday.com/qwipo-set-to-disrupt-indian-retail-digitally" target="_blank"><img src="assets/showcase1.png" /></a></li>
     </ul>
   </div>
 </div>

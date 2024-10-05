@@ -1,5 +1,5 @@
 <header class="desk_header">
-  <div class="main-header">
+  <div class="main-header" [class.sticky]="isSticky">
     <ng-template #content let-offcanvas>
       <div class="offcanvas-header">
         <button
@@ -13,7 +13,7 @@
         
         <ul class="navbar-nav setNav left-nav">
           <li><a routerLink="/" class="header-link">Home </a></li>
-          <li><a routerLink="/about-us"> About Us </a></li>
+          <li><a routerLink="/about-us"> About Us</a></li>
           <li><a routerLink="/blog" class="header-link"> Blogs </a></li>
           <li><a routerLink="/services" class="header-link"> Services </a></li>
           <li><a routerLink="/career" class="header-link"> Career </a></li>
@@ -60,9 +60,7 @@
               <li><a routerLink="/" class="header-link">Home </a></li>
               <li>
                 <a
-                routerLink="/about"
-                  routerLinkActive="active"
-                  ariaCurrentWhenActive="page"
+                routerLink="./about"
                 >
                   About Us
                 </a>
