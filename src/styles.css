@@ -25,7 +25,10 @@ p {
      
         justify-content: end;
     }
-
+    .testionials-section .carousel-indicators {
+        margin-bottom: 14px !important;
+        margin-right: 140px;
+    }
     body ngb-offcanvas-panel.offcanvas.offcanvas-end.show {
         width: 35% !important;
     }
