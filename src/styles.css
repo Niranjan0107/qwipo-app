@@ -24,20 +24,20 @@ p {
     span.carousel-control-prev-icon {
      
         position: absolute;
-        top: -65px;
+        top: -94px;
     }
     
     span.carousel-control-next-icon {
 
         position: absolute;
-        top:8px;
+        top:-42px;
     }
     .carousel-control-prev {
         left: auto;
         right: auto;
         top: auto;
         margin: 0px auto;
-        width: 84%;
+        width: 93%;
         /* background-color: red; */
     }
     button.carousel-control-next {
@@ -47,7 +47,7 @@ p {
         right: auto;
         margin: 0px auto;
         text-align: center;
-        width: 98%;
+        width: 100%;
     }
     .need-col h3 {
         min-height: 56px;
@@ -65,7 +65,7 @@ p {
     }
 
     body .services-dialog .modal-dialog {
-        max-width: 60% !important;
+        max-width: 35% !important;
     }
 
     .challange-col .image-box {
@@ -889,7 +889,7 @@ body .inner-counter p {
 
 .services-dialog .modal-content {
  
-    background-color: #ffcebf;
+    background-color: #fff;
     box-shadow: 0 20px 55px 7px #4d4c4c;
 }
 
@@ -1111,4 +1111,5 @@ p {
 
     line-height: 18px;
 }
+
 }
