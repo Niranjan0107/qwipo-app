@@ -34,16 +34,30 @@ export class HeaderComponent implements OnInit{
 
 
 	// sticky header
-
-	  isSticky: boolean = false;
-
-
-
-  ngOnInit(): void {}
-
-  @HostListener('window:scroll', [])
-  onWindowScroll() {
-    const scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
-    this.isSticky = scrollPosition >= 100;
-  }
+	isSticky: boolean = false;
+	isHidden: boolean = false;
+	lastScrollTop = 0;
+  
+  
+	ngOnInit(): void {}
+  
+	@HostListener('window:scroll', [])
+	onWindowScroll() {
+	  const scrollPosition = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+  
+	  // Toggle sticky class based on scroll position
+	  this.isSticky = scrollPosition >= 120;
+  
+	  // Detect if scrolling up or down
+	  if (scrollPosition > this.lastScrollTop) {
+		// Scrolling down
+		this.isHidden = true; // Hide the header
+	  } else {
+		// Scrolling up
+		this.isHidden = false; // Show the header
+	  }
+	  
+	  // Update last scroll position
+	  this.lastScrollTop = scrollPosition;
+	}
 }

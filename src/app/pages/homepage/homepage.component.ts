@@ -21,7 +21,7 @@ export class HomepageComponent {
       longDescription: `Gain visibility and connect directly with retailers, expanding brand recognition and driving growth.`,
     },
     {
-      title: "Payment Transparency and Security",
+      title: "Payment Transparency & Security",
       image: "assets/f2.png",
       longDescription: `Enjoy clear, timely, and secure transactions, enabling better financial management.`,
     },

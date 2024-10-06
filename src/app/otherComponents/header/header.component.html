@@ -1,5 +1,5 @@
 <header class="desk_header">
-  <div class="main-header" [class.sticky]="isSticky">
+  <div class="main-header" [class.sticky]="isSticky" [class.hidden]="isHidden">
     <ng-template #content let-offcanvas>
       <div class="offcanvas-header">
         <button
